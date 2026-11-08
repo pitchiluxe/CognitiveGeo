@@ -1,0 +1,1986 @@
+[
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Assistant",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Conversational assistance for writing, reasoning, and everyday work.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://chatgpt.com/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://openai.com/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "GPT / ChatGPT"
+  },
+  {
+    "id": "codex",
+    "name": "Codex",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Coding",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "An AI coding product for software development tasks.",
+    "creatorInfo": "Built by OpenAI research and engineering teams.",
+    "url": "https://chatgpt.com/codex",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://openai.com/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "GPT / Codex"
+  },
+  {
+    "id": "whisper",
+    "name": "Whisper",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Audio",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Speech recognition models for multilingual transcription.",
+    "creatorInfo": "OpenAI published the original model and code in 2022.",
+    "url": "https://openai.com/index/whisper/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://openai.com/index/whisper/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "Whisper"
+  },
+  {
+    "id": "dall-e",
+    "name": "DALL·E",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Images",
+    "access": "Research / historical",
+    "era": "Historical",
+    "description": "A landmark text-to-image model introduced in 2021.",
+    "creatorInfo": "An OpenAI research project; this entry links to the original research.",
+    "url": "https://openai.com/index/dall-e/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://openai.com/index/dall-e/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "DALL·E"
+  },
+  {
+    "id": "claude",
+    "name": "Claude",
+    "creator": "Anthropic",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Assistant",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "AI assistance for analysis, writing, and coding.",
+    "creatorInfo": "Anthropic is an AI research company focused on reliable and steerable systems.",
+    "url": "https://claude.ai/",
+    "creatorUrl": "https://www.anthropic.com/company",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.anthropic.com/company"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.anthropic.com/company"
+      }
+    ],
+    "family": "Claude"
+  },
+  {
+    "id": "gemini",
+    "name": "Gemini",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Assistant",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "A multimodal AI model family.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/gemini/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/models/gemini/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemini"
+  },
+  {
+    "id": "gemma",
+    "name": "Gemma",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "An open-weight family for building AI applications.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/gemma/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/models/gemma/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemma"
+  },
+  {
+    "id": "alphafold",
+    "name": "AlphaFold",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Science",
+    "access": "Research / historical",
+    "era": "Modern",
+    "description": "Protein structure prediction for scientific research.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/science/alphafold/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/science/alphafold/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "AlphaFold"
+  },
+  {
+    "id": "alphago",
+    "name": "AlphaGo",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Science",
+    "access": "Research / historical",
+    "era": "Historical",
+    "description": "A landmark research system for the game of Go.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/research/alphago/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/research/alphago/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "AlphaGo"
+  },
+  {
+    "id": "veo",
+    "name": "Veo",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Video",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Generative video models.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/about/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Veo"
+  },
+  {
+    "id": "lyria",
+    "name": "Lyria",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Audio",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Generative music and audio models.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/about/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Lyria"
+  },
+  {
+    "id": "genie",
+    "name": "Genie",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Science",
+    "access": "Research / historical",
+    "era": "Modern",
+    "description": "Research into interactive generated worlds.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/about/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Genie"
+  },
+  {
+    "id": "weathernext",
+    "name": "WeatherNext",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Science",
+    "access": "Research / historical",
+    "era": "Modern",
+    "description": "AI weather forecasting research.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/about/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://deepmind.google/about/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "WeatherNext"
+  },
+  {
+    "id": "llama",
+    "name": "Llama",
+    "creator": "Meta",
+    "city": "Menlo Park",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "A family of language models with published weights.",
+    "creatorInfo": "Meta research and engineering teams; licenses vary by model version.",
+    "url": "https://github.com/meta-llama/llama",
+    "creatorUrl": "https://github.com/meta-llama",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://github.com/meta-llama/llama"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://github.com/meta-llama"
+      }
+    ],
+    "family": "Llama"
+  },
+  {
+    "id": "sam",
+    "name": "Segment Anything",
+    "creator": "Meta FAIR",
+    "city": "Menlo Park",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "category": "Vision",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Models for segmenting objects in images.",
+    "creatorInfo": "Created by the Meta FAIR research team with published code and checkpoints.",
+    "url": "https://github.com/facebookresearch/segment-anything",
+    "creatorUrl": "https://github.com/facebookresearch",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://github.com/facebookresearch/segment-anything"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://github.com/facebookresearch"
+      }
+    ],
+    "family": "Segment Anything"
+  },
+  {
+    "id": "phi",
+    "name": "Phi",
+    "creator": "Microsoft Research",
+    "city": "Redmond",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      47.674,
+      -122.1215
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Small language models; this reference is Phi-3 Mini.",
+    "creatorInfo": "Microsoft Research teams published the linked model card and weights.",
+    "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+    "creatorUrl": "https://www.microsoft.com/en-us/research/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.microsoft.com/en-us/research/"
+      }
+    ],
+    "family": "Phi"
+  },
+  {
+    "id": "github-copilot",
+    "name": "GitHub Copilot",
+    "creator": "GitHub / Microsoft",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Coding",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "AI assistance integrated into software development workflows.",
+    "creatorInfo": "GitHub builds Copilot with partner model integrations.",
+    "url": "https://github.com/features/copilot",
+    "creatorUrl": "https://github.com/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://github.com/features/copilot"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://github.com/about"
+      }
+    ],
+    "family": "GitHub Copilot"
+  },
+  {
+    "id": "mistral-vibe",
+    "name": "Mistral Vibe / Le Chat",
+    "creator": "Mistral AI",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "category": "Assistant",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Mistral’s chat and agent product, formerly Le Chat.",
+    "creatorInfo": "Founded by Arthur Mensch, Guillaume Lample, and Timothée Lacroix.",
+    "url": "https://mistral.ai/products/vibe/",
+    "creatorUrl": "https://mistral.ai/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://mistral.ai/products/vibe/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://mistral.ai/about/"
+      }
+    ],
+    "family": "Mistral"
+  },
+  {
+    "id": "deepseek-r1",
+    "name": "DeepSeek-R1",
+    "creator": "DeepSeek",
+    "city": "Hangzhou",
+    "country": "China",
+    "region": "asia",
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "A reasoning model family with published weights.",
+    "creatorInfo": "DeepSeek research teams; the official repository documents model licensing.",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "creatorUrl": "https://www.deepseek.com/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.deepseek.com/"
+      }
+    ],
+    "family": "DeepSeek"
+  },
+  {
+    "id": "qwen",
+    "name": "Qwen",
+    "creator": "Alibaba Cloud / Qwen Team",
+    "city": "Hangzhou",
+    "country": "China",
+    "region": "asia",
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "A family of language and multimodal models.",
+    "creatorInfo": "Created by Alibaba Cloud’s Qwen research team; inspect each model license.",
+    "url": "https://github.com/QwenLM/Qwen",
+    "creatorUrl": "https://qwenlm.github.io/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://github.com/QwenLM/Qwen"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://qwenlm.github.io/"
+      }
+    ],
+    "family": "Qwen"
+  },
+  {
+    "id": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "creator": "CompVis, Stability AI, Runway & LAION",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Images",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Latent diffusion models for image generation.",
+    "creatorInfo": "A collaborative research lineage; attribution and licenses differ across releases.",
+    "url": "https://huggingface.co/CompVis/stable-diffusion",
+    "creatorUrl": "https://stability.ai/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://huggingface.co/docs/diffusers/v0.15.0/api/pipelines/stable_diffusion/text2img"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://stability.ai/"
+      }
+    ],
+    "family": "Stable Diffusion"
+  },
+  {
+    "id": "flux",
+    "name": "FLUX",
+    "creator": "Black Forest Labs",
+    "city": "Freiburg",
+    "country": "Germany",
+    "region": "europe",
+    "coordinates": [
+      47.999,
+      7.8421
+    ],
+    "category": "Images",
+    "access": "Mixed",
+    "era": "Modern",
+    "description": "A family of generative visual models.",
+    "creatorInfo": "Black Forest Labs works from Freiburg and San Francisco; access varies by model.",
+    "url": "https://bfl.ai/",
+    "creatorUrl": "https://bfl.ai/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://bfl.ai/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://bfl.ai/about"
+      }
+    ],
+    "family": "FLUX"
+  },
+  {
+    "id": "runway",
+    "name": "Runway",
+    "creator": "Runway",
+    "city": "New York",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      40.7128,
+      -74.006
+    ],
+    "category": "Video",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Generative video and visual simulation tools.",
+    "creatorInfo": "Runway’s research and creative teams operate across several global offices.",
+    "url": "https://runway.com/",
+    "creatorUrl": "https://runway.com/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://runway.com/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://runway.com/about"
+      }
+    ],
+    "family": "Runway"
+  },
+  {
+    "id": "elevenlabs",
+    "name": "ElevenLabs",
+    "creator": "ElevenLabs",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Audio",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Speech synthesis, dubbing, and voice-agent products.",
+    "creatorInfo": "An AI research and product organization developing audio models and applications.",
+    "url": "https://elevenlabs.io/",
+    "creatorUrl": "https://elevenlabs.io/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://elevenlabs.io/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://elevenlabs.io/about"
+      }
+    ],
+    "family": "ElevenLabs"
+  },
+  {
+    "id": "midjourney",
+    "name": "Midjourney",
+    "creator": "Midjourney",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Images",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Generative image and video creation.",
+    "creatorInfo": "A self-funded, distributed research lab. The pin is a representative US hub.",
+    "url": "https://www.midjourney.com/",
+    "creatorUrl": "https://www.midjourney.com/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.midjourney.com/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.midjourney.com/"
+      }
+    ],
+    "family": "Midjourney"
+  },
+  {
+    "id": "cohere",
+    "name": "Command / Cohere",
+    "creator": "Cohere",
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "americas",
+    "coordinates": [
+      43.6532,
+      -79.3832
+    ],
+    "category": "Language models",
+    "access": "Mixed",
+    "era": "Modern",
+    "description": "Language and retrieval models for enterprise workflows.",
+    "creatorInfo": "Cohere develops enterprise AI, with dedicated deployment and model options.",
+    "url": "https://cohere.com/",
+    "creatorUrl": "https://cohere.com/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://cohere.com/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://cohere.com/about"
+      }
+    ],
+    "family": "Command / Cohere"
+  },
+  {
+    "id": "bloom",
+    "name": "BLOOM",
+    "creator": "BigScience collaboration",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "A multilingual language model released by a research collaboration.",
+    "creatorInfo": "BigScience contributors worked internationally; Paris is a representative hub.",
+    "url": "https://huggingface.co/bigscience/bloom",
+    "creatorUrl": "https://huggingface.co/bigscience",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://huggingface.co/bigscience/bloom"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://huggingface.co/bigscience"
+      }
+    ],
+    "family": "BLOOM"
+  },
+  {
+    "id": "firefly",
+    "name": "Adobe Firefly",
+    "creator": "Adobe",
+    "city": "San Jose",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.3382,
+      -121.8863
+    ],
+    "category": "Images",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Generative creative tools for images and video.",
+    "creatorInfo": "Adobe’s teams build Firefly alongside integrations with partner models.",
+    "url": "https://www.adobe.com/products/firefly.html",
+    "creatorUrl": "https://www.adobe.com/about-adobe.html",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.adobe.com/products/firefly.html"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.adobe.com/about-adobe.html"
+      }
+    ],
+    "family": "Adobe Firefly"
+  },
+  {
+    "id": "canva",
+    "name": "Canva AI",
+    "creator": "Canva",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "coordinates": [
+      -33.8688,
+      151.2093
+    ],
+    "category": "Design",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "AI-assisted design, writing, and visual content tools.",
+    "creatorInfo": "Canva combines its product teams and AI model partners.",
+    "url": "https://www.canva.com/canva-ai/",
+    "creatorUrl": "https://www.canva.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.canva.com/canva-ai/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.canva.com/about/"
+      }
+    ],
+    "family": "Canva AI"
+  },
+  {
+    "id": "synthesia",
+    "name": "Synthesia",
+    "creator": "Synthesia",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Video",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "AI avatar and video tools for training and communication.",
+    "creatorInfo": "Synthesia’s research and product teams develop synthetic video applications.",
+    "url": "https://www.synthesia.io/",
+    "creatorUrl": "https://www.synthesia.io/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.synthesia.io/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.synthesia.io/about"
+      }
+    ],
+    "family": "Synthesia"
+  },
+  {
+    "id": "suno",
+    "name": "Suno",
+    "creator": "Suno",
+    "city": "Cambridge",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      42.3736,
+      -71.1097
+    ],
+    "category": "Audio",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "AI music creation and browser-based production tools.",
+    "creatorInfo": "Suno builds music models and creator experiences; founded in 2022.",
+    "url": "https://suno.com/",
+    "creatorUrl": "https://suno.com/about",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://suno.com/"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://suno.com/about"
+      }
+    ],
+    "family": "Suno"
+  },
+  {
+    "id": "deep-blue",
+    "name": "Deep Blue",
+    "creator": "IBM Research",
+    "city": "Yorktown Heights",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.2709,
+      -73.7776
+    ],
+    "category": "Science",
+    "access": "Research / historical",
+    "era": "Historical",
+    "description": "The chess system that defeated Kasparov in the 1997 match.",
+    "creatorInfo": "An IBM research and engineering project; a historical system, not a chatbot service.",
+    "url": "https://www.ibm.com/history/deep-blue",
+    "creatorUrl": "https://research.ibm.com/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://www.ibm.com/history/deep-blue"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://research.ibm.com/"
+      }
+    ],
+    "family": "Deep Blue"
+  },
+  {
+    "id": "eliza",
+    "name": "ELIZA",
+    "creator": "Joseph Weizenbaum / MIT",
+    "city": "Cambridge",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      42.3736,
+      -71.1097
+    ],
+    "category": "Assistant",
+    "access": "Research / historical",
+    "era": "Historical",
+    "description": "A pioneering rule-based conversational program.",
+    "creatorInfo": "Joseph Weizenbaum developed ELIZA while at MIT. This links to MIT’s historical account.",
+    "url": "https://news.mit.edu/2008/obit-weizenbaum-0310",
+    "creatorUrl": "https://www.csail.mit.edu/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official product / research source",
+        "url": "https://news.mit.edu/2008/obit-weizenbaum-0310"
+      },
+      {
+        "label": "Creator / organization",
+        "url": "https://www.csail.mit.edu/"
+      }
+    ],
+    "family": "ELIZA"
+  },
+  {
+    "id": "grok",
+    "name": "Grok",
+    "creator": "xAI / SpaceXSI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Assistant",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Grok assistant and model family. The linked x.ai site currently identifies the organization as SpaceXSI.",
+    "creatorInfo": "xAI / SpaceXSI research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://grok.com/",
+    "creatorUrl": "https://x.ai/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Grok",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://grok.com/"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://x.ai/"
+      }
+    ]
+  },
+  {
+    "id": "perplexity",
+    "name": "Perplexity",
+    "creator": "Perplexity",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Search",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Search and research assistance with source-linked answers.",
+    "creatorInfo": "Perplexity research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://www.perplexity.ai/",
+    "creatorUrl": "https://www.perplexity.ai/hub",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Perplexity",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://www.perplexity.ai/"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://www.perplexity.ai/hub"
+      }
+    ]
+  },
+  {
+    "id": "olmo",
+    "name": "OLMo",
+    "creator": "Ai2",
+    "city": "Seattle",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      47.6062,
+      -122.3321
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Open language-model research from Ai2.",
+    "creatorInfo": "Ai2 research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/allenai",
+    "creatorUrl": "https://allenai.org/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "OLMo",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/allenai"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://allenai.org/"
+      }
+    ]
+  },
+  {
+    "id": "granite",
+    "name": "Granite",
+    "creator": "IBM Research",
+    "city": "Yorktown Heights",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.2709,
+      -73.7776
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "IBM’s published model family for enterprise AI workflows.",
+    "creatorInfo": "IBM Research research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/ibm-granite",
+    "creatorUrl": "https://research.ibm.com/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Granite",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/ibm-granite"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://research.ibm.com/"
+      }
+    ]
+  },
+  {
+    "id": "falcon",
+    "name": "Falcon",
+    "creator": "Technology Innovation Institute",
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "region": "asia",
+    "coordinates": [
+      24.4539,
+      54.3773
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Models released by the Technology Innovation Institute in the UAE.",
+    "creatorInfo": "Technology Innovation Institute research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/tiiuae",
+    "creatorUrl": "https://www.tii.ae/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Falcon",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/tiiuae"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://www.tii.ae/"
+      }
+    ]
+  },
+  {
+    "id": "sarvam",
+    "name": "Sarvam AI",
+    "creator": "Sarvam AI",
+    "city": "Bengaluru",
+    "country": "India",
+    "region": "asia",
+    "coordinates": [
+      12.9716,
+      77.5946
+    ],
+    "category": "Language models",
+    "access": "Mixed",
+    "era": "Modern",
+    "description": "Indian-language and sovereign AI models and services.",
+    "creatorInfo": "Sarvam AI research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://www.sarvam.ai/",
+    "creatorUrl": "https://www.sarvam.ai/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Sarvam AI",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://www.sarvam.ai/"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://www.sarvam.ai/"
+      }
+    ]
+  },
+  {
+    "id": "masakhane",
+    "name": "Masakhane research",
+    "creator": "Masakhane community",
+    "city": "Nairobi",
+    "country": "Kenya",
+    "region": "africa",
+    "coordinates": [
+      -1.2921,
+      36.8219
+    ],
+    "category": "Language research",
+    "access": "Mixed",
+    "era": "Modern",
+    "description": "African-language NLP research by a distributed grassroots community.",
+    "creatorInfo": "Masakhane community research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://www.masakhane.io/",
+    "creatorUrl": "https://www.masakhane.io/",
+    "locationNote": "Distributed African research community; Nairobi is an illustrative regional anchor, not a headquarters or a claim of an exact creation site.",
+    "reviewedOn": "2026-11-08",
+    "family": "Masakhane research",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://www.masakhane.io/"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://www.masakhane.io/"
+      }
+    ]
+  },
+  {
+    "id": "starcoder",
+    "name": "StarCoder",
+    "creator": "BigCode collaboration",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "category": "Coding",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Code-model research from an international collaboration.",
+    "creatorInfo": "BigCode collaboration research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/bigcode",
+    "creatorUrl": "https://www.bigcode-project.org/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "StarCoder",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/bigcode"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://www.bigcode-project.org/"
+      }
+    ]
+  },
+  {
+    "id": "smollm",
+    "name": "SmolLM",
+    "creator": "Hugging Face research",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Small language models published by Hugging Face research.",
+    "creatorInfo": "Hugging Face research research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/HuggingFaceTB",
+    "creatorUrl": "https://huggingface.co/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "SmolLM",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/HuggingFaceTB"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://huggingface.co/"
+      }
+    ]
+  },
+  {
+    "id": "mistral-models",
+    "name": "Mistral models",
+    "creator": "Mistral AI",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "category": "Language models",
+    "access": "Mixed",
+    "era": "Modern",
+    "description": "Language and coding model releases; access varies by model.",
+    "creatorInfo": "Mistral AI research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/mistralai",
+    "creatorUrl": "https://mistral.ai/about/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Mistral",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/mistralai"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://mistral.ai/about/"
+      }
+    ]
+  },
+  {
+    "id": "aya",
+    "name": "Aya",
+    "creator": "Cohere For AI",
+    "city": "Toronto",
+    "country": "Canada",
+    "region": "americas",
+    "coordinates": [
+      43.6532,
+      -79.3832
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Multilingual model research published by Cohere For AI.",
+    "creatorInfo": "Cohere For AI research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://huggingface.co/CohereForAI",
+    "creatorUrl": "https://cohere.com/about",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Aya",
+    "sources": [
+      {
+        "label": "Official project / publisher",
+        "url": "https://huggingface.co/CohereForAI"
+      },
+      {
+        "label": "Creator profile",
+        "url": "https://cohere.com/about"
+      }
+    ]
+  },
+  {
+    "id": "llama-2",
+    "name": "Llama 2",
+    "creator": "Meta",
+    "city": "Menlo Park",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Earlier Llama model family; see original repository and license.",
+    "creatorInfo": "Meta research and engineering teams; licenses vary by model version.",
+    "url": "https://github.com/meta-llama/llama",
+    "creatorUrl": "https://github.com/meta-llama",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://github.com/meta-llama/llama"
+      },
+      {
+        "label": "Creator",
+        "url": "https://github.com/meta-llama"
+      }
+    ],
+    "family": "Llama"
+  },
+  {
+    "id": "llama-3",
+    "name": "Llama 3",
+    "creator": "Meta",
+    "city": "Menlo Park",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Llama model releases published by Meta.",
+    "creatorInfo": "Meta research and engineering teams; licenses vary by model version.",
+    "url": "https://huggingface.co/meta-llama",
+    "creatorUrl": "https://github.com/meta-llama",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://huggingface.co/meta-llama"
+      },
+      {
+        "label": "Creator",
+        "url": "https://github.com/meta-llama"
+      }
+    ],
+    "family": "Llama"
+  },
+  {
+    "id": "qwen-2-5",
+    "name": "Qwen 2.5",
+    "creator": "Alibaba Cloud / Qwen Team",
+    "city": "Hangzhou",
+    "country": "China",
+    "region": "asia",
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Qwen language-model series; consult specific model cards for variants.",
+    "creatorInfo": "Created by Alibaba Cloud’s Qwen research team; inspect each model license.",
+    "url": "https://huggingface.co/Qwen",
+    "creatorUrl": "https://qwenlm.github.io/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://huggingface.co/Qwen"
+      },
+      {
+        "label": "Creator",
+        "url": "https://qwenlm.github.io/"
+      }
+    ],
+    "family": "Qwen"
+  },
+  {
+    "id": "qwen-3",
+    "name": "Qwen 3",
+    "creator": "Alibaba Cloud / Qwen Team",
+    "city": "Hangzhou",
+    "country": "China",
+    "region": "asia",
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Qwen language and reasoning model releases.",
+    "creatorInfo": "Created by Alibaba Cloud’s Qwen research team; inspect each model license.",
+    "url": "https://huggingface.co/Qwen",
+    "creatorUrl": "https://qwenlm.github.io/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://huggingface.co/Qwen"
+      },
+      {
+        "label": "Creator",
+        "url": "https://qwenlm.github.io/"
+      }
+    ],
+    "family": "Qwen"
+  },
+  {
+    "id": "gemma-2",
+    "name": "Gemma 2",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "An earlier Gemma model series; verify the individual model card.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/gemma/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://deepmind.google/models/gemma/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemma"
+  },
+  {
+    "id": "gemini-2-5",
+    "name": "Gemini 2.5",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Gemini model series documented in the model-card index.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/model-cards/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://deepmind.google/models/model-cards/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemini"
+  },
+  {
+    "id": "gemini-3",
+    "name": "Gemini 3",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Gemini model series documented in the model-card index.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/model-cards/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://deepmind.google/models/model-cards/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemini"
+  },
+  {
+    "id": "gemini-4",
+    "name": "Gemini 4",
+    "creator": "Google DeepMind",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Gemini model family documented on Google DeepMind’s official site.",
+    "creatorInfo": "Google DeepMind is a research organization spanning multiple international labs.",
+    "url": "https://deepmind.google/models/gemini/",
+    "creatorUrl": "https://deepmind.google/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://deepmind.google/models/gemini/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://deepmind.google/about/"
+      }
+    ],
+    "family": "Gemini"
+  },
+  {
+    "id": "grok-4",
+    "name": "Grok 4",
+    "creator": "xAI / SpaceXSI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Grok model family; use official documentation for version availability.",
+    "creatorInfo": "xAI / SpaceXSI research and engineering teams. See the official publisher profile and model card for attribution and licensing.",
+    "url": "https://docs.x.ai/developers/models",
+    "creatorUrl": "https://x.ai/",
+    "locationNote": "Approximate representative creator/research city. This is not an exact development site, training cluster, or inference server. Distributed contributors may work elsewhere.",
+    "reviewedOn": "2026-11-08",
+    "family": "Grok",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://docs.x.ai/developers/models"
+      },
+      {
+        "label": "Creator",
+        "url": "https://x.ai/"
+      }
+    ]
+  },
+  {
+    "id": "phi-3",
+    "name": "Phi-3 Mini",
+    "creator": "Microsoft Research",
+    "city": "Redmond",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      47.674,
+      -122.1215
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Small language model released by Microsoft Research.",
+    "creatorInfo": "Microsoft Research teams published the linked model card and weights.",
+    "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct",
+    "creatorUrl": "https://www.microsoft.com/en-us/research/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Official model documentation",
+        "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+      },
+      {
+        "label": "Creator",
+        "url": "https://www.microsoft.com/en-us/research/"
+      }
+    ],
+    "family": "Phi"
+  },
+  {
+    "id": "gpt-3",
+    "name": "GPT-3",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "A landmark language-model research release from 2020.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://arxiv.org/abs/2005.14165",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://arxiv.org/abs/2005.14165"
+      },
+      {
+        "label": "Creator",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "GPT / ChatGPT"
+  },
+  {
+    "id": "gpt-4",
+    "name": "GPT-4",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "OpenAI’s GPT-4 model family and original research.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://openai.com/index/gpt-4-research/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://openai.com/index/gpt-4-research/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "GPT / ChatGPT"
+  },
+  {
+    "id": "gpt-4o",
+    "name": "GPT-4o",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "A multimodal GPT family; the source describes the original release.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://openai.com/index/hello-gpt-4o/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://openai.com/index/hello-gpt-4o/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "GPT / ChatGPT"
+  },
+  {
+    "id": "o1",
+    "name": "OpenAI o1",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "OpenAI’s earlier reasoning-model family.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://openai.com/index/introducing-openai-o1-preview/",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://openai.com/index/introducing-openai-o1-preview/"
+      },
+      {
+        "label": "Creator",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "OpenAI reasoning"
+  },
+  {
+    "id": "gpt-oss",
+    "name": "gpt-oss",
+    "creator": "OpenAI",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Open weights",
+    "era": "Modern",
+    "description": "Open-weight language models published by OpenAI.",
+    "creatorInfo": "OpenAI develops and deploys AI systems through research and product teams.",
+    "url": "https://github.com/openai/gpt-oss",
+    "creatorUrl": "https://openai.com/about/",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://github.com/openai/gpt-oss"
+      },
+      {
+        "label": "Creator",
+        "url": "https://openai.com/about/"
+      }
+    ],
+    "family": "gpt-oss"
+  },
+  {
+    "id": "claude-haiku",
+    "name": "Claude Haiku",
+    "creator": "Anthropic",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Claude family branch; individual releases and availability vary.",
+    "creatorInfo": "Anthropic is an AI research company focused on reliable and steerable systems.",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "creatorUrl": "https://www.anthropic.com/company",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://www.anthropic.com/news/claude-3-family"
+      },
+      {
+        "label": "Creator",
+        "url": "https://www.anthropic.com/company"
+      }
+    ],
+    "family": "Claude"
+  },
+  {
+    "id": "claude-sonnet",
+    "name": "Claude Sonnet",
+    "creator": "Anthropic",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Claude family branch; consult official documentation for the current version.",
+    "creatorInfo": "Anthropic is an AI research company focused on reliable and steerable systems.",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "creatorUrl": "https://www.anthropic.com/company",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://www.anthropic.com/news/claude-3-family"
+      },
+      {
+        "label": "Creator",
+        "url": "https://www.anthropic.com/company"
+      }
+    ],
+    "family": "Claude"
+  },
+  {
+    "id": "claude-opus",
+    "name": "Claude Opus",
+    "creator": "Anthropic",
+    "city": "San Francisco",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "category": "Language models",
+    "access": "Hosted",
+    "era": "Modern",
+    "description": "Claude family branch; this entry groups multiple released versions.",
+    "creatorInfo": "Anthropic is an AI research company focused on reliable and steerable systems.",
+    "url": "https://www.anthropic.com/news/claude-3-family",
+    "creatorUrl": "https://www.anthropic.com/company",
+    "locationNote": "Approximate representative company or research hub; not a server, training location, or coverage boundary.",
+    "reviewedOn": "2026-11-08",
+    "sources": [
+      {
+        "label": "Original model research / family documentation",
+        "url": "https://www.anthropic.com/news/claude-3-family"
+      },
+      {
+        "label": "Creator",
+        "url": "https://www.anthropic.com/company"
+      }
+    ],
+    "family": "Claude"
+  }
+]

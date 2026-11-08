@@ -1,0 +1,57 @@
+name: Windows release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: windows-release
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Assign an increasing release version
+        shell: pwsh
+        run: |
+          $baseVersion = (Get-Content package.json | ConvertFrom-Json).version.Split('.')
+          $releaseVersion = "$($baseVersion[0]).$($baseVersion[1]).$([int]$baseVersion[2] + [int]$env:GITHUB_RUN_NUMBER)"
+          npm version $releaseVersion --no-git-tag-version
+          "RELEASE_VERSION=$releaseVersion" >> $env:GITHUB_ENV
+      - name: Build Windows installer and update metadata
+        run: npm run package:win
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          CSC_LINK: ${{ secrets.WINDOWS_CERTIFICATE }}
+          CSC_KEY_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
+      - run: npm run release:checksums
+      - name: Publish installer, checksums and update feed
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: v${{ env.RELEASE_VERSION }}
+          name: CognitiveGeo v${{ env.RELEASE_VERSION }}
+          target_commitish: ${{ github.sha }}
+          generate_release_notes: true
+          fail_on_unmatched_files: true
+          files: |
+            release/CognitiveGeo-Setup.exe
+            release/CognitiveGeo-Setup.exe.blockmap
+            release/latest.yml
+            release/SHA256SUMS.txt
+      - name: Retain installer artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: CognitiveGeo-Windows-${{ env.RELEASE_VERSION }}
+          path: |
+            release/*.exe
+            release/*.blockmap
+            release/latest.yml
+            release/SHA256SUMS.txt

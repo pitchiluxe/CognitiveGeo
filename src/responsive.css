@@ -1,0 +1,20 @@
+@media(max-width:1050px){.operations.city-mode .right-panel{display:none}}
+@media(max-width:680px){
+  .stats{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .page-heading>div:first-child{min-width:0}
+  .page-heading h1{font-size:24px;line-height:1.25}
+  .heading-actions{flex-shrink:0;margin-left:8px}
+  .stat-value{font-size:21px;flex-wrap:wrap;row-gap:6px;min-height:28px}
+  .stat-value>.trend{margin-left:0}
+  .stat-value>small{font-size:8px}
+  .timeline{height:115px;gap:10px 12px;justify-content:space-between;padding:15px}
+  .timeline-label{width:auto}
+  .timeline-label strong{font-size:11px}
+  .timeline-label span{font-size:8px}
+  .timeline-label>svg{width:17px;height:17px;margin-right:5px}
+  .timeline-track{order:3;flex:0 0 100%;padding:6px 0 0}
+  .year-labels button{font-size:9px}
+  .year-labels button>span{font-size:5px}
+  .play-button{width:29px;height:29px}
+  .left-panel{overflow:visible}
+}

@@ -1,0 +1,18 @@
+{
+  "name":"cognitivegeo","productName":"CognitiveGeo","version":"1.0.0","private":true,"type":"module",
+  "description":"A global atlas of AI models, data centers, and ideas. Created by Erick Omari.",
+  "author":{"name":"Erick Omari","url":"https://github.com/pitchiluxe"},
+  "main":"desktop/main.cjs",
+  "scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview --host 127.0.0.1","test":"node --test","desktop":"npm run build && electron .","package:win":"npm run build && electron-builder --win nsis --x64 --publish never","package:dir":"npm run build && electron-builder --dir --win --x64","release:checksums":"node scripts/checksums.mjs"},
+  "dependencies":{"three":"^0.181.0","topojson-client":"^3.1.0","world-atlas":"^2.0.2","lucide":"^0.468.0","electron-updater":"6.8.11"},
+  "devDependencies":{"vite":"^6.4.1","electron":"45.2.3","electron-builder":"26.18.0"},
+  "build":{
+    "appId":"com.erickomari.cognitivegeo","productName":"CognitiveGeo","copyright":"Copyright © 2026 Erick Omari",
+    "directories":{"output":"release","buildResources":"desktop/resources"},
+    "files":["dist/**/*","desktop/**/*.cjs","desktop/resources/icon.png","package.json"],
+    "asar":true,
+    "win":{"icon":"desktop/resources/icon.ico","target":[{"target":"nsis","arch":["x64"]}],"artifactName":"CognitiveGeo-Setup.${ext}"},
+    "nsis":{"oneClick":false,"perMachine":false,"allowToChangeInstallationDirectory":true,"createDesktopShortcut":true,"createStartMenuShortcut":true,"shortcutName":"CognitiveGeo","installerIcon":"desktop/resources/icon.ico","uninstallerIcon":"desktop/resources/icon.ico","deleteAppDataOnUninstall":false},
+    "publish":[{"provider":"github","owner":"pitchiluxe","repo":"CognitiveGeo","releaseType":"release"}]
+  }
+}

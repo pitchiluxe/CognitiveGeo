@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "dc-google-council-bluffs",
+    "name": "Google · Council Bluffs",
+    "operator": "Google",
+    "city": "Council Bluffs",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.2619,
+      -95.8608
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-the-dalles",
+    "name": "Google · The Dalles",
+    "operator": "Google",
+    "city": "The Dalles",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      45.5946,
+      -121.1787
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-berkeley-county",
+    "name": "Google · Berkeley County",
+    "operator": "Google",
+    "city": "Berkeley County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      33.1767,
+      -80.0088
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-douglas-county",
+    "name": "Google · Douglas County",
+    "operator": "Google",
+    "city": "Douglas County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      33.729,
+      -84.7316
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-lenoir",
+    "name": "Google · Lenoir",
+    "operator": "Google",
+    "city": "Lenoir",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      35.914,
+      -81.539
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-jackson-county",
+    "name": "Google · Jackson County",
+    "operator": "Google",
+    "city": "Jackson County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      34.7304,
+      -85.972
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-montgomery-county-tennessee",
+    "name": "Google · Montgomery County, Tennessee",
+    "operator": "Google",
+    "city": "Montgomery County, Tennessee",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      36.496,
+      -87.346
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-pryor-mayes-county",
+    "name": "Google · Pryor, Mayes County",
+    "operator": "Google",
+    "city": "Pryor, Mayes County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      36.3084,
+      -95.3169
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-new-albany",
+    "name": "Google · New Albany",
+    "operator": "Google",
+    "city": "New Albany",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      40.0812,
+      -82.8088
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-columbus",
+    "name": "Google · Columbus",
+    "operator": "Google",
+    "city": "Columbus",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      39.9612,
+      -82.9988
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-lancaster",
+    "name": "Google · Lancaster",
+    "operator": "Google",
+    "city": "Lancaster",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      39.7137,
+      -82.5993
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-papillion",
+    "name": "Google · Papillion",
+    "operator": "Google",
+    "city": "Papillion",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.1544,
+      -96.0422
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-henderson",
+    "name": "Google · Henderson",
+    "operator": "Google",
+    "city": "Henderson",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      36.0395,
+      -114.9817
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-storey-county",
+    "name": "Google · Storey County",
+    "operator": "Google",
+    "city": "Storey County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      39.497,
+      -119.526
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-midlothian",
+    "name": "Google · Midlothian",
+    "operator": "Google",
+    "city": "Midlothian",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      32.4824,
+      -96.9944
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-mesa",
+    "name": "Google · Mesa",
+    "operator": "Google",
+    "city": "Mesa",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      33.4152,
+      -111.8315
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-loudoun-county",
+    "name": "Google · Loudoun County",
+    "operator": "Google",
+    "city": "Loudoun County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      39.083,
+      -77.649
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-dublin",
+    "name": "Google · Dublin",
+    "operator": "Google",
+    "city": "Dublin",
+    "country": "Ireland",
+    "region": "europe",
+    "coordinates": [
+      53.3498,
+      -6.2603
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-st-ghislain",
+    "name": "Google · St. Ghislain",
+    "operator": "Google",
+    "city": "St. Ghislain",
+    "country": "Belgium",
+    "region": "europe",
+    "coordinates": [
+      50.4482,
+      3.8206
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-eemshaven",
+    "name": "Google · Eemshaven",
+    "operator": "Google",
+    "city": "Eemshaven",
+    "country": "Netherlands",
+    "region": "europe",
+    "coordinates": [
+      53.442,
+      6.836
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-middenmeer",
+    "name": "Google · Middenmeer",
+    "operator": "Google",
+    "city": "Middenmeer",
+    "country": "Netherlands",
+    "region": "europe",
+    "coordinates": [
+      52.8085,
+      4.9986
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-hamina",
+    "name": "Google · Hamina",
+    "operator": "Google",
+    "city": "Hamina",
+    "country": "Finland",
+    "region": "europe",
+    "coordinates": [
+      60.5697,
+      27.1988
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-fredericia",
+    "name": "Google · Fredericia",
+    "operator": "Google",
+    "city": "Fredericia",
+    "country": "Denmark",
+    "region": "europe",
+    "coordinates": [
+      55.5657,
+      9.7526
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-hanau",
+    "name": "Google · Hanau",
+    "operator": "Google",
+    "city": "Hanau",
+    "country": "Germany",
+    "region": "europe",
+    "coordinates": [
+      50.1264,
+      8.9283
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-waltham-cross",
+    "name": "Google · Waltham Cross",
+    "operator": "Google",
+    "city": "Waltham Cross",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.686,
+      -0.033
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/waltham-cross/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-changhua-county",
+    "name": "Google · Changhua County",
+    "operator": "Google",
+    "city": "Changhua County",
+    "country": "Taiwan",
+    "region": "asia",
+    "coordinates": [
+      24.0756,
+      120.544
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-inzai",
+    "name": "Google · Inzai",
+    "operator": "Google",
+    "city": "Inzai",
+    "country": "Japan",
+    "region": "asia",
+    "coordinates": [
+      35.832,
+      140.145
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-singapore",
+    "name": "Google · Singapore",
+    "operator": "Google",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "asia",
+    "coordinates": [
+      1.3521,
+      103.8198
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-quilicura",
+    "name": "Google · Quilicura",
+    "operator": "Google",
+    "city": "Quilicura",
+    "country": "Chile",
+    "region": "americas",
+    "coordinates": [
+      -33.3658,
+      -70.7279
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator lists an active data center location. Individual campus phases and expansions may have different statuses.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-andhra-pradesh",
+    "name": "Google · Andhra Pradesh",
+    "operator": "Google",
+    "city": "Andhra Pradesh",
+    "country": "India",
+    "region": "asia",
+    "coordinates": [
+      15.9129,
+      79.74
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-chonburi",
+    "name": "Google · Chonburi",
+    "operator": "Google",
+    "city": "Chonburi",
+    "country": "Thailand",
+    "region": "asia",
+    "coordinates": [
+      13.3611,
+      100.9847
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-selangor",
+    "name": "Google · Selangor",
+    "operator": "Google",
+    "city": "Selangor",
+    "country": "Malaysia",
+    "region": "asia",
+    "coordinates": [
+      3.0738,
+      101.5183
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-dietzenbach",
+    "name": "Google · Dietzenbach",
+    "operator": "Google",
+    "city": "Dietzenbach",
+    "country": "Germany",
+    "region": "europe",
+    "coordinates": [
+      50.0173,
+      8.787
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-farciennes",
+    "name": "Google · Farciennes",
+    "operator": "Google",
+    "city": "Farciennes",
+    "country": "Belgium",
+    "region": "europe",
+    "coordinates": [
+      50.429,
+      4.548
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-groningen",
+    "name": "Google · Groningen",
+    "operator": "Google",
+    "city": "Groningen",
+    "country": "Netherlands",
+    "region": "europe",
+    "coordinates": [
+      53.2194,
+      6.5665
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-horndal",
+    "name": "Google · Horndal",
+    "operator": "Google",
+    "city": "Horndal",
+    "country": "Sweden",
+    "region": "europe",
+    "coordinates": [
+      60.302,
+      16.412
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-kronstorf",
+    "name": "Google · Kronstorf",
+    "operator": "Google",
+    "city": "Kronstorf",
+    "country": "Austria",
+    "region": "europe",
+    "coordinates": [
+      48.14,
+      14.462
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-muhos",
+    "name": "Google · Muhos",
+    "operator": "Google",
+    "city": "Muhos",
+    "country": "Finland",
+    "region": "europe",
+    "coordinates": [
+      64.807,
+      25.992
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-skien",
+    "name": "Google · Skien",
+    "operator": "Google",
+    "city": "Skien",
+    "country": "Norway",
+    "region": "europe",
+    "coordinates": [
+      59.2096,
+      9.608
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-vaala",
+    "name": "Google · Vaala",
+    "operator": "Google",
+    "city": "Vaala",
+    "country": "Finland",
+    "region": "europe",
+    "coordinates": [
+      64.559,
+      26.836
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-cedar-rapids",
+    "name": "Google · Cedar Rapids",
+    "operator": "Google",
+    "city": "Cedar Rapids",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.9779,
+      -91.6656
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-chesterfield-county",
+    "name": "Google · Chesterfield County",
+    "operator": "Google",
+    "city": "Chesterfield County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.3673,
+      -77.6078
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-columbia-county",
+    "name": "Google · Columbia County",
+    "operator": "Google",
+    "city": "Columbia County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      33.55,
+      -82.26
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-kansas-city",
+    "name": "Google · Kansas City",
+    "operator": "Google",
+    "city": "Kansas City",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      39.0997,
+      -94.5786
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-west-memphis",
+    "name": "Google · West Memphis",
+    "operator": "Google",
+    "city": "West Memphis",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      35.1465,
+      -90.1848
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-google-canelones",
+    "name": "Google · Canelones",
+    "operator": "Google",
+    "city": "Canelones",
+    "country": "Uruguay",
+    "region": "americas",
+    "coordinates": [
+      -34.754,
+      -56.003
+    ],
+    "status": "In development",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.datacenters.google/locations/canelones-uruguay/",
+    "description": "Operator labels this location in development. This does not establish whether construction has begun or when it will open.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-microsoft-mount-pleasant",
+    "name": "Fairwater · Mount Pleasant",
+    "operator": "Microsoft",
+    "city": "Mount Pleasant",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      42.719,
+      -87.889
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-06-23",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://news.microsoft.com/source/2026/06/23/microsoft-completes-construction-on-first-datacenter-facility-in-mount-pleasant-wisconsin/",
+    "description": "Microsoft reports its first Mount Pleasant facility fully operational. Other campus phases are separate.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-microsoft-peschiera",
+    "name": "Peschiera Borromeo campus",
+    "operator": "Microsoft",
+    "city": "Peschiera Borromeo",
+    "country": "Italy",
+    "region": "europe",
+    "coordinates": [
+      45.431,
+      9.309
+    ],
+    "status": "Under construction",
+    "reportedOn": "2026-11-07",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://local.microsoft.com/blog/answering-questions-about-the-microsoft-datacenter-in-peschiera-borromeo/",
+    "description": "Operator reports building and infrastructure construction began in Q3 2026. Completion is scheduled for 2029, not guaranteed.",
+    "targetOpening": "2029 (reported target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-microsoft-vaughan",
+    "name": "Vaughan · phase one",
+    "operator": "Microsoft",
+    "city": "Vaughan",
+    "country": "Canada",
+    "region": "americas",
+    "coordinates": [
+      43.8563,
+      -79.5085
+    ],
+    "status": "Commissioning",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://local.microsoft.com/blog/vaughan-construction-update/",
+    "description": "Building construction completed July 2026. Operator says equipment installation and testing continue into early 2028; not yet operational.",
+    "targetOpening": "Early 2028 preparation target; opening unconfirmed",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-microsoft-lancienne",
+    "name": "L’Ancienne-Lorette campus",
+    "operator": "Microsoft",
+    "city": "L’Ancienne-Lorette",
+    "country": "Canada",
+    "region": "americas",
+    "coordinates": [
+      46.793,
+      -71.349
+    ],
+    "status": "Under construction",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://local.microsoft.com/blog/lancienne-lorette-datacentre-construction-update/",
+    "description": "Operator reports work continuing through 2026 with construction completion anticipated in early 2027; operational opening is separate.",
+    "targetOpening": "Early 2027 construction target",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-microsoft-leeds",
+    "name": "Leeds · LBA10 proposal",
+    "operator": "Microsoft",
+    "city": "Leeds",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      53.8008,
+      -1.5491
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://local.microsoft.com/wp-content/uploads/2025/06/LBA10-Consultation-boards-Approved.pdf",
+    "description": "Consultation timeline indicated an early-2027 construction start, subject to planning. Current planning approval and groundbreaking are not confirmed.",
+    "targetOpening": "Construction proposed early 2027",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-sg6",
+    "name": "Equinix SG6",
+    "operator": "Equinix",
+    "city": "Singapore",
+    "country": "Singapore",
+    "region": "asia",
+    "coordinates": [
+      1.3521,
+      103.8198
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-06",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://investor.equinix.com/news-events/press-releases/detail/1130/equinix-opens-sg6-in-singapore-expanding-ai-ready-capacity",
+    "description": "Opening announcement supersedes an older expansion page that still gives Q1 2027.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-sv18",
+    "name": "Equinix SV18",
+    "operator": "Equinix",
+    "city": "Silicon Valley",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      37.3875,
+      -122.0575
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator lists this new facility as opened in Q2 2026.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-md5",
+    "name": "Equinix MD5",
+    "operator": "Equinix",
+    "city": "Madrid",
+    "country": "Spain",
+    "region": "europe",
+    "coordinates": [
+      40.4168,
+      -3.7038
+    ],
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator lists this facility as opened in Q2 2026.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-os5x",
+    "name": "Equinix OS5x",
+    "operator": "Equinix",
+    "city": "Osaka",
+    "country": "Japan",
+    "region": "asia",
+    "coordinates": [
+      34.6937,
+      135.5023
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q1 2027 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-jh2",
+    "name": "Equinix JH2",
+    "operator": "Equinix",
+    "city": "Johor",
+    "country": "Malaysia",
+    "region": "asia",
+    "coordinates": [
+      1.4927,
+      103.7414
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q1 2027 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-ld14",
+    "name": "Equinix LD14",
+    "operator": "Equinix",
+    "city": "London",
+    "country": "United Kingdom",
+    "region": "europe",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q1 2027 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-mx3x",
+    "name": "Equinix MX3x",
+    "operator": "Equinix",
+    "city": "Mexico City",
+    "country": "Mexico",
+    "region": "americas",
+    "coordinates": [
+      19.4326,
+      -99.1332
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q2 2027 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-pa14",
+    "name": "Equinix PA14",
+    "operator": "Equinix",
+    "city": "Paris",
+    "country": "France",
+    "region": "europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q2 2027 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-sp7",
+    "name": "Equinix SP7",
+    "operator": "Equinix",
+    "city": "São Paulo",
+    "country": "Brazil",
+    "region": "americas",
+    "coordinates": [
+      -23.5505,
+      -46.6333
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/expansions",
+    "description": "Operator expansion timeline lists a future facility. Groundbreaking or current construction phase is not established by this source.",
+    "targetOpening": "Q4 2026 (timeline target)",
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-aws-madison",
+    "name": "Madison County expansion",
+    "operator": "Amazon Web Services",
+    "city": "Madison County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      32.634,
+      -90.034
+    ],
+    "status": "Under construction",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-25-billion-mississippi-data-centers",
+    "description": "Operator describes active campus expansion and construction. This entry represents the county-level project, not every building or an all-campus operational status.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-aws-warren",
+    "name": "Warren County proposed campus",
+    "operator": "Amazon Web Services",
+    "city": "Warren County",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      32.353,
+      -90.88
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-3-billion-mississippi-data-center-investment",
+    "description": "Operator announced a new campus investment. This source does not establish the current construction phase.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-aws-northern-indiana",
+    "name": "Northern Indiana campus program",
+    "operator": "Amazon Web Services",
+    "city": "Northern Indiana",
+    "country": "United States",
+    "region": "americas",
+    "coordinates": [
+      41.6764,
+      -86.252
+    ],
+    "status": "Announced",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.aboutamazon.com/news/company-news/amazon-15-billion-indiana-data-centers",
+    "description": "Regional campus announcement. Pin is an approximate regional reference; individual facility locations and statuses are not enumerated.",
+    "targetOpening": null,
+    "locationNote": "Approximate city/county centroid, not an exact building footprint. A campus entry may contain multiple facilities.",
+    "provenance": "Official operator source; status reflects the linked report, not live verification."
+  },
+  {
+    "id": "dc-equinix-jn1",
+    "name": "Equinix JN1",
+    "city": "Johannesburg",
+    "country": "South Africa",
+    "region": "africa",
+    "coordinates": [
+      -26.2041,
+      28.0473
+    ],
+    "operator": "Equinix",
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://docs.equinix.com/colocation/availability/",
+    "description": "Operator lists this facility as an active colocation location.",
+    "targetOpening": "Already listed as operating",
+    "locationNote": "Approximate city centroid, not an exact building footprint.",
+    "provenance": "Official operator source reviewed on the stated date; not live verification."
+  },
+  {
+    "id": "dc-equinix-sy5",
+    "name": "Equinix SY5",
+    "city": "Sydney",
+    "country": "Australia",
+    "region": "oceania",
+    "coordinates": [
+      -33.8688,
+      151.2093
+    ],
+    "operator": "Equinix",
+    "status": "Operational",
+    "reportedOn": "2026-11-08",
+    "reviewedOn": "2026-11-08",
+    "sourceUrl": "https://www.equinix.com/data-centers/asia-pacific-colocation/australia-colocation/sydney-data-centers/sy5",
+    "description": "Operator lists this facility as an active colocation location.",
+    "targetOpening": "Already listed as operating",
+    "locationNote": "Approximate city centroid, not an exact building footprint.",
+    "provenance": "Official operator source reviewed on the stated date; not live verification."
+  }
+]

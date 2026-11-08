@@ -1,0 +1,1818 @@
+[
+  {
+    "id": "access-voice",
+    "name": "Everyday access copilot",
+    "sector": "Accessibility",
+    "description": "Turn complex forms and service websites into plain-language, voice-guided tasks.",
+    "buyer": "Disability support organizations and accessible-service teams",
+    "impact": "Measure independent task completion and time saved.",
+    "monthlyPrice": 99,
+    "variableCost": 18,
+    "stack": [
+      "whisper",
+      "claude",
+      "elevenlabs"
+    ],
+    "markets": [
+      {
+        "id": "access-voice-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Test with accessibility service partners and English-language workflows."
+      },
+      {
+        "id": "access-voice-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "rationale": "Pilot bilingual, consent-based support with community organizations."
+      },
+      {
+        "id": "access-voice-sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "oceania",
+        "coordinates": [
+          -33.8688,
+          151.2093
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          3
+        ],
+        "rationale": "Explore service-provider distribution before direct-to-consumer sales."
+      }
+    ],
+    "channel": "Partner with accessibility groups and service providers.",
+    "sharingMechanism": "Opt-in, privacy-safe task guides that users can share.",
+    "moat": "Accessible interaction design, verified workflows, and trusted partnerships.",
+    "risk": "Protect identity documents; keep a person in control of submissions.",
+    "mvp": "Build one accessible form walkthrough and measure completion with five users.",
+    "validation": [
+      "Interview 10 users and two support organizations.",
+      "Co-design one workflow with accessibility testing.",
+      "Run a paid pilot and compare completion against the original form."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "local-tutor",
+    "name": "Local-language learning coach",
+    "sector": "Education",
+    "description": "Create curriculum-aligned explanations and practice in students’ own languages.",
+    "buyer": "Tutoring centers, teachers, and community education programs",
+    "impact": "Track practice completion and independently checked learning gains.",
+    "monthlyPrice": 29,
+    "variableCost": 6,
+    "stack": [
+      "qwen",
+      "gemma",
+      "whisper"
+    ],
+    "markets": [
+      {
+        "id": "local-tutor-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          5,
+          4,
+          4
+        ],
+        "rationale": "Test local-language demand with a tutoring center before expanding."
+      },
+      {
+        "id": "local-tutor-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          2,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore low-bandwidth teacher-led pilots and local payment options."
+      },
+      {
+        "id": "local-tutor-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Validate Portuguese curriculum fit with a local educator."
+      }
+    ],
+    "channel": "Teacher communities and tutoring partnerships.",
+    "sharingMechanism": "Teachers share practice packs; families invite study partners.",
+    "moat": "Curriculum alignment and educator-reviewed local content.",
+    "risk": "Avoid unsupported learning claims and automated high-stakes grading.",
+    "mvp": "Offer one subject and one language with teacher-checked answers.",
+    "validation": [
+      "Interview teachers about repeated preparation tasks.",
+      "Measure a two-week pilot with reviewed questions.",
+      "Ask a center to pay before adding subjects."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "booking-agent",
+    "name": "Always-open service desk",
+    "sector": "Small business",
+    "description": "Answer routine questions and draft appointment bookings for local businesses.",
+    "buyer": "Home-service businesses, salons, and repair shops",
+    "impact": "Measure missed enquiries recovered and confirmed appointments.",
+    "monthlyPrice": 149,
+    "variableCost": 30,
+    "stack": [
+      "claude",
+      "elevenlabs",
+      "whisper"
+    ],
+    "markets": [
+      {
+        "id": "booking-agent-atlanta",
+        "city": "Atlanta",
+        "country": "United States",
+        "region": "americas",
+        "coordinates": [
+          33.749,
+          -84.388
+        ],
+        "factors": [
+          5,
+          4,
+          5,
+          5
+        ],
+        "rationale": "Try one home-service niche through a local business association."
+      },
+      {
+        "id": "booking-agent-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          5,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Compare enquiry handling costs with a small service business."
+      },
+      {
+        "id": "booking-agent-dubai",
+        "city": "Dubai",
+        "country": "United Arab Emirates",
+        "region": "asia",
+        "coordinates": [
+          25.2048,
+          55.2708
+        ],
+        "factors": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Test bilingual support with one service operator."
+      }
+    ],
+    "channel": "Local agencies and industry associations.",
+    "sharingMechanism": "A useful booking confirmation can invite the next location owner.",
+    "moat": "Vertical integrations, call quality evaluations, and reliable handoff.",
+    "risk": "Get consent for recording and confirm bookings with the business.",
+    "mvp": "Build FAQ handling plus a human-approved calendar handoff.",
+    "validation": [
+      "Interview 15 owners and review missed enquiry patterns.",
+      "Pilot with two businesses and record booking accuracy.",
+      "Charge for a month and measure retention."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "invoice-desk",
+    "name": "Invoice-to-action assistant",
+    "sector": "Small business",
+    "description": "Extract invoice details and draft follow-up tasks without moving money.",
+    "buyer": "Bookkeepers and small accounting practices",
+    "impact": "Measure review time saved per invoice and extraction accuracy.",
+    "monthlyPrice": 79,
+    "variableCost": 12,
+    "stack": [
+      "mistral-vibe",
+      "qwen",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "invoice-desk-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          5,
+          4,
+          4,
+          5
+        ],
+        "rationale": "Pilot through a bookkeeping practice with reviewable outputs."
+      },
+      {
+        "id": "invoice-desk-amsterdam",
+        "city": "Amsterdam",
+        "country": "Netherlands",
+        "region": "europe",
+        "coordinates": [
+          52.3676,
+          4.9041
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "rationale": "Explore multilingual document workflows with a local partner."
+      },
+      {
+        "id": "invoice-desk-singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "asia",
+        "coordinates": [
+          1.3521,
+          103.8198
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "rationale": "Test workflows with a regional accounting service."
+      }
+    ],
+    "channel": "Bookkeeper referrals and accounting-software partnerships.",
+    "sharingMechanism": "Clients invite their bookkeeper into a shared review queue.",
+    "moat": "Document evaluation sets and reliable integrations.",
+    "risk": "Keep accountant approval; do not execute payments or give tax conclusions.",
+    "mvp": "Extract five invoice fields into a review screen.",
+    "validation": [
+      "Get permission for a small redacted evaluation set.",
+      "Measure field-level accuracy and review time.",
+      "Sell a pilot to a practice with repeat invoice volume."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "care-circle",
+    "name": "Care circle coordinator",
+    "sector": "Care coordination",
+    "description": "Summarize approved care notes and coordinate non-clinical family tasks.",
+    "buyer": "Home-care agencies and family support coordinators",
+    "impact": "Measure administrative time and missed non-clinical tasks.",
+    "monthlyPrice": 199,
+    "variableCost": 35,
+    "stack": [
+      "claude",
+      "whisper",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "care-circle-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore coordinator-led pilots with consented records."
+      },
+      {
+        "id": "care-circle-tokyo",
+        "city": "Tokyo",
+        "country": "Japan",
+        "region": "asia",
+        "coordinates": [
+          35.6762,
+          139.6503
+        ],
+        "factors": [
+          4,
+          4,
+          2,
+          3
+        ],
+        "rationale": "Test local-language coordination through an established care provider."
+      },
+      {
+        "id": "care-circle-sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "oceania",
+        "coordinates": [
+          -33.8688,
+          151.2093
+        ],
+        "factors": [
+          4,
+          3,
+          3,
+          4
+        ],
+        "rationale": "Validate agency workflows and consent requirements with a partner."
+      }
+    ],
+    "channel": "Care-provider partnerships.",
+    "sharingMechanism": "Families invite an approved coordinator to a private task board.",
+    "moat": "Consent workflows and integration with existing coordination tools.",
+    "risk": "No diagnosis, treatment, or emergency triage; validate privacy requirements.",
+    "mvp": "Build an approved-notes summary and shared task board.",
+    "validation": [
+      "Interview coordinators about administrative delays.",
+      "Test with synthetic notes before consented pilots.",
+      "Measure time saved and get a paid organizational commitment."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "creator-localize",
+    "name": "Creator localization studio",
+    "sector": "Creator tools",
+    "description": "Turn a creator’s own videos into reviewed multilingual clips and captions.",
+    "buyer": "Small creator teams and education publishers",
+    "impact": "Measure editing time, caption accuracy, and audience response.",
+    "monthlyPrice": 59,
+    "variableCost": 18,
+    "stack": [
+      "whisper",
+      "elevenlabs",
+      "runway"
+    ],
+    "markets": [
+      {
+        "id": "creator-localize-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          5,
+          4,
+          5
+        ],
+        "rationale": "Test Portuguese-to-English creator workflows and local price sensitivity."
+      },
+      {
+        "id": "creator-localize-seoul",
+        "city": "Seoul",
+        "country": "South Korea",
+        "region": "asia",
+        "coordinates": [
+          37.5665,
+          126.978
+        ],
+        "factors": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore creator partnerships for reviewed cross-language clips."
+      },
+      {
+        "id": "creator-localize-newyork",
+        "city": "New York",
+        "country": "United States",
+        "region": "americas",
+        "coordinates": [
+          40.7128,
+          -74.006
+        ],
+        "factors": [
+          5,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Pilot with niche creators who already sell courses or services."
+      }
+    ],
+    "channel": "Creator communities and editing agencies.",
+    "sharingMechanism": "Creators publish the output and can opt into attribution.",
+    "moat": "Rights-cleared workflows, terminology memory, and editorial quality.",
+    "risk": "Obtain voice and footage rights; review translations and generation costs.",
+    "mvp": "Build captions and one translated clip from authorized source material.",
+    "validation": [
+      "Interview creators with an existing multilingual audience.",
+      "Measure accuracy and production time on five clips.",
+      "Test paid retention rather than views alone."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "skills-lab",
+    "name": "Job skills practice lab",
+    "sector": "Education",
+    "description": "Offer private role-play practice for interviews and customer-facing work.",
+    "buyer": "Training providers and workforce development programs",
+    "impact": "Measure practice completion and trainer-rated improvements.",
+    "monthlyPrice": 39,
+    "variableCost": 8,
+    "stack": [
+      "claude",
+      "whisper",
+      "elevenlabs"
+    ],
+    "markets": [
+      {
+        "id": "skills-lab-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          5,
+          4,
+          5
+        ],
+        "rationale": "Test workplace-English scenarios through a training provider."
+      },
+      {
+        "id": "skills-lab-lagos",
+        "city": "Lagos",
+        "country": "Nigeria",
+        "region": "africa",
+        "coordinates": [
+          6.5244,
+          3.3792
+        ],
+        "factors": [
+          2,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore mobile-friendly cohorts and affordable pricing."
+      },
+      {
+        "id": "skills-lab-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          5,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Pilot with professional training groups and human feedback."
+      }
+    ],
+    "channel": "Training cohorts and employer learning teams.",
+    "sharingMechanism": "Learners share optional progress badges without personal recordings.",
+    "moat": "Trainer-designed rubrics and culturally relevant scenarios.",
+    "risk": "Do not use model scores to make employment decisions.",
+    "mvp": "Build three practice scenarios and trainer-reviewable feedback.",
+    "validation": [
+      "Co-design a rubric with two trainers.",
+      "Run a cohort and compare human-rated baseline and final practice.",
+      "Pre-sell the next cohort to a training provider."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "merchant-studio",
+    "name": "Neighborhood merchant studio",
+    "sector": "Commerce",
+    "description": "Generate reviewed product photos, descriptions, and local-language listings.",
+    "buyer": "Independent online merchants and small retail agencies",
+    "impact": "Measure listing preparation time and controlled conversion experiments.",
+    "monthlyPrice": 49,
+    "variableCost": 10,
+    "stack": [
+      "flux",
+      "firefly",
+      "qwen"
+    ],
+    "markets": [
+      {
+        "id": "merchant-studio-mexico",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "region": "americas",
+        "coordinates": [
+          19.4326,
+          -99.1332
+        ],
+        "factors": [
+          3,
+          4,
+          4,
+          5
+        ],
+        "rationale": "Pilot Spanish listings with a merchant collective."
+      },
+      {
+        "id": "merchant-studio-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          5,
+          4,
+          5
+        ],
+        "rationale": "Test Portuguese content with repeat sellers."
+      },
+      {
+        "id": "merchant-studio-singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "asia",
+        "coordinates": [
+          1.3521,
+          103.8198
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "rationale": "Validate multilingual regional listings with a small agency."
+      }
+    ],
+    "channel": "Merchant communities and marketplace service agencies.",
+    "sharingMechanism": "Merchants share product collections and invite suppliers.",
+    "moat": "Catalog integrations, accurate product details, and brand memory.",
+    "risk": "Generated images must faithfully represent products and respect rights.",
+    "mvp": "Create a reviewed listing from three supplied product photos.",
+    "validation": [
+      "Interview merchants about repeat catalog tasks.",
+      "Test content quality and preparation time.",
+      "Run a controlled sales experiment before claiming conversion gains."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "private-knowledge",
+    "name": "Private team knowledge desk",
+    "sector": "Enterprise",
+    "description": "Answer questions over authorized internal documents with citations and access checks.",
+    "buyer": "Professional service teams and regulated small businesses",
+    "impact": "Measure retrieval accuracy and time to a verified answer.",
+    "monthlyPrice": 299,
+    "variableCost": 45,
+    "stack": [
+      "llama",
+      "cohere",
+      "mistral-vibe"
+    ],
+    "markets": [
+      {
+        "id": "private-knowledge-berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "europe",
+        "coordinates": [
+          52.52,
+          13.405
+        ],
+        "factors": [
+          5,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore private deployments with a service firm and local advisor."
+      },
+      {
+        "id": "private-knowledge-paris",
+        "city": "Paris",
+        "country": "France",
+        "region": "europe",
+        "coordinates": [
+          48.8566,
+          2.3522
+        ],
+        "factors": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Test French-language retrieval and hosting preferences."
+      },
+      {
+        "id": "private-knowledge-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          4,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Pilot a narrow document collection with role-based access."
+      }
+    ],
+    "channel": "Specialist IT service firms.",
+    "sharingMechanism": "An answered question can invite an authorized teammate.",
+    "moat": "Permission-aware retrieval, evaluations, and document connectors.",
+    "risk": "Do not imply regulatory certification; test leakage and citation correctness.",
+    "mvp": "Index a small approved document set with access-controlled answers.",
+    "validation": [
+      "Interview teams about repeated document searches.",
+      "Create a benchmark of 50 answerable and unanswerable questions.",
+      "Sell a limited pilot after access-control testing."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "crop-notes",
+    "name": "Field notes intelligence",
+    "sector": "Agriculture",
+    "description": "Organize farmer observations and translate extension-service guidance for review.",
+    "buyer": "Agricultural cooperatives and extension organizations",
+    "impact": "Measure record completeness and time to reach an expert.",
+    "monthlyPrice": 89,
+    "variableCost": 15,
+    "stack": [
+      "qwen",
+      "whisper",
+      "sam"
+    ],
+    "markets": [
+      {
+        "id": "crop-notes-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          2,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Co-design low-bandwidth notes with a cooperative and local agronomist."
+      },
+      {
+        "id": "crop-notes-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          5,
+          3,
+          4
+        ],
+        "rationale": "Test local-language workflows through an extension partner."
+      },
+      {
+        "id": "crop-notes-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Explore cooperative-funded record keeping with local expertise."
+      }
+    ],
+    "channel": "Cooperatives and extension workers.",
+    "sharingMechanism": "Farmer groups share expert-approved field templates.",
+    "moat": "Local partnerships, offline workflows, and region-specific reviewed guidance.",
+    "risk": "Do not prescribe crop chemicals or promise yield improvements from model output.",
+    "mvp": "Build voice-to-field-note capture and expert review.",
+    "validation": [
+      "Observe current field record workflows.",
+      "Trial offline capture with a small group.",
+      "Validate who pays before extending the product."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "energy-ops",
+    "name": "Energy operations copilot",
+    "sector": "Sustainability",
+    "description": "Explain business energy bills and flag anomalies for a human facilities manager.",
+    "buyer": "Small building operators and multi-site businesses",
+    "impact": "Measure analyst time and independently verified anomalies.",
+    "monthlyPrice": 199,
+    "variableCost": 25,
+    "stack": [
+      "phi",
+      "claude",
+      "qwen"
+    ],
+    "markets": [
+      {
+        "id": "energy-ops-berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "europe",
+        "coordinates": [
+          52.52,
+          13.405
+        ],
+        "factors": [
+          5,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Pilot with an operator willing to share approved billing data."
+      },
+      {
+        "id": "energy-ops-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          5,
+          4,
+          4,
+          4
+        ],
+        "rationale": "Validate recurring reporting needs across several small sites."
+      },
+      {
+        "id": "energy-ops-sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "oceania",
+        "coordinates": [
+          -33.8688,
+          151.2093
+        ],
+        "factors": [
+          4,
+          3,
+          4,
+          4
+        ],
+        "rationale": "Test document extraction and local energy terminology."
+      }
+    ],
+    "channel": "Facilities consultants and energy service providers.",
+    "sharingMechanism": "Managers invite site teams to reviewed reports.",
+    "moat": "Meter integrations and a verified anomaly evaluation set.",
+    "risk": "Savings need controlled evidence; avoid automatic equipment control.",
+    "mvp": "Analyze three months of bills in a reviewable dashboard.",
+    "validation": [
+      "Interview facilities managers and document their review process.",
+      "Test extraction and anomaly precision on approved samples.",
+      "Sell reporting before promising any energy savings."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "civic-language",
+    "name": "Plain-language public services",
+    "sector": "Accessibility",
+    "description": "Translate public-service instructions into clear, reviewed guides.",
+    "buyer": "Municipal service teams and community nonprofits",
+    "impact": "Measure comprehension and successful service navigation.",
+    "monthlyPrice": 249,
+    "variableCost": 30,
+    "stack": [
+      "gemma",
+      "qwen",
+      "whisper"
+    ],
+    "markets": [
+      {
+        "id": "civic-language-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Pilot a multilingual guide through a community service partner."
+      },
+      {
+        "id": "civic-language-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          4,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Test plain-language navigation for one local public service."
+      },
+      {
+        "id": "civic-language-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          2,
+          4,
+          3,
+          4
+        ],
+        "rationale": "Co-design a low-data guide with local language reviewers."
+      }
+    ],
+    "channel": "Community organizations and public-service design partners.",
+    "sharingMechanism": "Reviewed guides can be shared by trusted community workers.",
+    "moat": "Editorial process, language coverage, and up-to-date source tracking.",
+    "risk": "Keep official sources and review dates; no legal eligibility decisions.",
+    "mvp": "Publish one reviewed guide with official links and source dates.",
+    "validation": [
+      "Interview service navigators about repeated questions.",
+      "Test comprehension with target users and language reviewers.",
+      "Seek a funded pilot with a named content owner."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ]
+  },
+  {
+    "id": "heat-commons",
+    "name": "Neighborhood heat commons",
+    "sector": "Sustainability",
+    "description": "Match usable waste heat with community heating needs through a reviewed planning tool.",
+    "buyer": "Local energy cooperatives and municipal planners",
+    "impact": "Measure heat recovered and planning time; validate with thermal engineers.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "heat-commons-berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "europe",
+        "coordinates": [
+          52.52,
+          13.405
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "heat-commons-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "heat-commons-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Infrastructure, contracts, and energy regulation require specialist review.",
+    "mvp": "Model one district using consented meter data and human-reviewed engineering constraints.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "repair-memory",
+    "name": "Community repair memory",
+    "sector": "Circular economy",
+    "description": "A repair knowledge commons that connects symptoms, safe instructions, and local spare-part inventories.",
+    "buyer": "Repair cooperatives and independent workshops",
+    "impact": "Measure successful repairs, waste avoided, and technician time.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "repair-memory-atlanta",
+        "city": "Atlanta",
+        "country": "United States",
+        "region": "americas",
+        "coordinates": [
+          33.749,
+          -84.388
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "repair-memory-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "repair-memory-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Do not provide hazardous repair steps without qualified supervision.",
+    "mvp": "Pilot one appliance class with verified manuals and technician-approved instructions.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "water-acoustic",
+    "name": "Shared water leak intelligence",
+    "sector": "Sustainability",
+    "description": "Combine low-cost acoustic observations and human inspections to prioritize water-loss investigations.",
+    "buyer": "Water utilities and community infrastructure operators",
+    "impact": "Measure independently confirmed leaks and false-alarm burden.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "water-acoustic-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "water-acoustic-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "water-acoustic-mexico",
+        "city": "Mexico City",
+        "country": "Mexico",
+        "region": "americas",
+        "coordinates": [
+          19.4326,
+          -99.1332
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Sensor quality, access rights, and field verification determine feasibility.",
+    "mvp": "Run a blind test on labeled, consented acoustic samples from a small network.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "food-rescue",
+    "name": "Perishable rescue exchange",
+    "sector": "Food systems",
+    "description": "Coordinate local surplus food, safe handling windows, and delivery partners before food is wasted.",
+    "buyer": "Food banks, market cooperatives, and local retailers",
+    "impact": "Measure verified safe meals recovered and food waste avoided.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "food-rescue-saopaulo",
+        "city": "São Paulo",
+        "country": "Brazil",
+        "region": "americas",
+        "coordinates": [
+          -23.5505,
+          -46.6333
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "food-rescue-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "food-rescue-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Food safety, logistics, and liability need local expert review.",
+    "mvp": "Run a manually supervised exchange among three retailers and one food bank.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "climate-refuge",
+    "name": "Community climate refuge planner",
+    "sector": "Resilience",
+    "description": "Help community teams map accessible cooling and shelter options with verified operating information.",
+    "buyer": "Local resilience organizations and public service teams",
+    "impact": "Measure accessibility and timeliness of verified information.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "climate-refuge-atlanta",
+        "city": "Atlanta",
+        "country": "United States",
+        "region": "americas",
+        "coordinates": [
+          33.749,
+          -84.388
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "climate-refuge-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "climate-refuge-sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "oceania",
+        "coordinates": [
+          -33.8688,
+          151.2093
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Not an emergency dispatch system; stale information can cause harm.",
+    "mvp": "Map one neighborhood with trusted local organizations and human-verified updates.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "language-commons",
+    "name": "Rare-language service commons",
+    "sector": "Language access",
+    "description": "Co-create permissioned local-language datasets and service guides with community governance.",
+    "buyer": "Language communities, universities, and service organizations",
+    "impact": "Measure reviewer-rated translation quality and community control over data.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "language-commons-nairobi",
+        "city": "Nairobi",
+        "country": "Kenya",
+        "region": "africa",
+        "coordinates": [
+          -1.2921,
+          36.8219
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "language-commons-lagos",
+        "city": "Lagos",
+        "country": "Nigeria",
+        "region": "africa",
+        "coordinates": [
+          6.5244,
+          3.3792
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "language-commons-bengaluru",
+        "city": "Bengaluru",
+        "country": "India",
+        "region": "asia",
+        "coordinates": [
+          12.9716,
+          77.5946
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Consent, ownership, benefit sharing, and limited training data are central.",
+    "mvp": "Co-design a small approved phrase set and governance process with language speakers.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "compute-coop",
+    "name": "Community compute cooperative",
+    "sector": "Infrastructure",
+    "description": "Match approved batch jobs to spare compute while exposing cost, energy, and data-location constraints.",
+    "buyer": "Research cooperatives and small AI businesses",
+    "impact": "Measure completed work, effective cost, and independently assessed energy use.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "compute-coop-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "compute-coop-berlin",
+        "city": "Berlin",
+        "country": "Germany",
+        "region": "europe",
+        "coordinates": [
+          52.52,
+          13.405
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "compute-coop-singapore",
+        "city": "Singapore",
+        "country": "Singapore",
+        "region": "asia",
+        "coordinates": [
+          1.3521,
+          103.8198
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Isolation, network trust, scheduling reliability, and hardware economics require validation.",
+    "mvp": "Run synthetic non-sensitive workloads across two volunteer sites with clear accounting.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  },
+  {
+    "id": "access-home",
+    "name": "Assistive home adaptation planner",
+    "sector": "Accessibility",
+    "description": "Help residents and qualified assessors visualize accessible home adaptations using reviewed constraints.",
+    "buyer": "Accessibility assessors and housing support organizations",
+    "impact": "Measure assessor time and user-rated usefulness, not automated eligibility decisions.",
+    "monthlyPrice": 199,
+    "variableCost": 40,
+    "stack": [
+      "qwen",
+      "claude",
+      "phi"
+    ],
+    "markets": [
+      {
+        "id": "access-home-london",
+        "city": "London",
+        "country": "United Kingdom",
+        "region": "europe",
+        "coordinates": [
+          51.5074,
+          -0.1278
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "access-home-toronto",
+        "city": "Toronto",
+        "country": "Canada",
+        "region": "americas",
+        "coordinates": [
+          43.6532,
+          -79.3832
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      },
+      {
+        "id": "access-home-sydney",
+        "city": "Sydney",
+        "country": "Australia",
+        "region": "oceania",
+        "coordinates": [
+          -33.8688,
+          151.2093
+        ],
+        "factors": [
+          3,
+          3,
+          2,
+          3
+        ],
+        "rationale": "Illustrative pilot city, not evidence of demand. Confirm a local partner, infrastructure, and permission to run a trial."
+      }
+    ],
+    "channel": "Co-design a pilot with an established local organization.",
+    "sharingMechanism": "Publish opt-in, independently reviewed pilot results and reusable methods.",
+    "moat": "Trusted partnerships, governed local data, and validated domain-specific workflows.",
+    "risk": "Building rules, structural safety, and individual needs require professional assessment.",
+    "mvp": "Test a single-room planning prototype with an occupational therapist and accessibility users.",
+    "validation": [
+      "Interview affected communities and potential organizational buyers.",
+      "Review existing products, research, patents, and local constraints with experts.",
+      "Run a small controlled pilot and independently measure benefits and failure modes."
+    ],
+    "reviewedOn": "2026-11-08",
+    "assessment": "Editorial hypothesis, not measured demand or a revenue forecast.",
+    "sources": [
+      {
+        "label": "OECD: SME AI adoption context (2025)",
+        "url": "https://www.oecd.org/en/publications/generative-ai-and-the-sme-workforce_2d08b99d-en/full-report/component-4.html"
+      },
+      {
+        "label": "World Bank: digital opportunity and access gaps",
+        "url": "https://www.worldbank.org/en/publication/digital-progress-and-trends-report"
+      }
+    ],
+    "noveltyNote": "Frontier research proposal. Similar work may already exist; novelty and feasibility have not been established.",
+    "readiness": "Research hypothesis"
+  }
+]

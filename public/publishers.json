@@ -1,0 +1,155 @@
+{
+  "meta-llama": {
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "city": "Menlo Park",
+    "country": "United States",
+    "url": "https://github.com/meta-llama/llama"
+  },
+  "google": {
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "city": "London",
+    "country": "United Kingdom",
+    "url": "https://deepmind.google/models/gemma/"
+  },
+  "qwen": {
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "city": "Hangzhou",
+    "country": "China",
+    "url": "https://github.com/QwenLM/Qwen"
+  },
+  "mistralai": {
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "city": "Paris",
+    "country": "France",
+    "url": "https://huggingface.co/mistralai"
+  },
+  "microsoft": {
+    "coordinates": [
+      47.674,
+      -122.1215
+    ],
+    "city": "Redmond",
+    "country": "United States",
+    "url": "https://huggingface.co/microsoft/Phi-3-mini-4k-instruct"
+  },
+  "deepseek-ai": {
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "city": "Hangzhou",
+    "country": "China",
+    "url": "https://github.com/deepseek-ai/DeepSeek-R1"
+  },
+  "openai": {
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "city": "San Francisco",
+    "country": "United States",
+    "url": "https://chatgpt.com/"
+  },
+  "allenai": {
+    "coordinates": [
+      47.6062,
+      -122.3321
+    ],
+    "city": "Seattle",
+    "country": "United States",
+    "url": "https://huggingface.co/allenai"
+  },
+  "ibm-granite": {
+    "coordinates": [
+      41.2709,
+      -73.7776
+    ],
+    "city": "Yorktown Heights",
+    "country": "United States",
+    "url": "https://huggingface.co/ibm-granite"
+  },
+  "tiiuae": {
+    "coordinates": [
+      24.4539,
+      54.3773
+    ],
+    "city": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "url": "https://huggingface.co/tiiuae"
+  },
+  "bigcode": {
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "city": "Paris",
+    "country": "France",
+    "url": "https://huggingface.co/bigcode"
+  },
+  "huggingfacetb": {
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "city": "Paris",
+    "country": "France",
+    "url": "https://huggingface.co/HuggingFaceTB"
+  },
+  "cohereforai": {
+    "coordinates": [
+      43.6532,
+      -79.3832
+    ],
+    "city": "Toronto",
+    "country": "Canada",
+    "url": "https://huggingface.co/CohereForAI"
+  },
+  "stabilityai": {
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "city": "London",
+    "country": "United Kingdom",
+    "url": "https://huggingface.co/CompVis/stable-diffusion"
+  },
+  "black-forest-labs": {
+    "coordinates": [
+      47.999,
+      7.8421
+    ],
+    "city": "Freiburg",
+    "country": "Germany",
+    "url": "https://bfl.ai/"
+  },
+  "bigscience": {
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "city": "Paris",
+    "country": "France",
+    "url": "https://huggingface.co/bigscience/bloom"
+  },
+  "sarvamai": {
+    "coordinates": [
+      12.9716,
+      77.5946
+    ],
+    "city": "Bengaluru",
+    "country": "India",
+    "url": "https://www.sarvam.ai/"
+  }
+}

@@ -1,0 +1,271 @@
+[
+  {
+    "id": "history-1950-0",
+    "name": "The imitation game",
+    "year": 1950,
+    "city": "Manchester",
+    "country": "United Kingdom",
+    "coordinates": [
+      53.4808,
+      -2.2426
+    ],
+    "creator": "Alan Turing",
+    "description": "A foundational question: how should we evaluate machine intelligence? Manchester represents Turing’s research affiliation.",
+    "sourceUrl": "https://www.ibm.com/think/topics/history-of-artificial-intelligence",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-1956-1",
+    "name": "Dartmouth summer project",
+    "year": 1956,
+    "city": "Hanover",
+    "country": "United States",
+    "coordinates": [
+      43.7022,
+      -72.2896
+    ],
+    "creator": "John McCarthy, Marvin Minsky, Nathaniel Rochester, Claude Shannon and participants",
+    "description": "The Dartmouth project helped establish artificial intelligence as a research field.",
+    "sourceUrl": "https://www.ibm.com/think/topics/history-of-artificial-intelligence",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-1966-2",
+    "name": "ELIZA and conversation",
+    "year": 1966,
+    "city": "Cambridge",
+    "country": "United States",
+    "coordinates": [
+      42.3736,
+      -71.1097
+    ],
+    "creator": "Joseph Weizenbaum / MIT",
+    "description": "A rule-based conversational program showed how people attribute understanding to machines.",
+    "sourceUrl": "https://news.mit.edu/2008/obit-weizenbaum-0310",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-1970-3",
+    "name": "Expert systems take shape",
+    "year": 1970,
+    "city": "Stanford",
+    "country": "United States",
+    "coordinates": [
+      37.4275,
+      -122.1697
+    ],
+    "creator": "Stanford and other research groups",
+    "description": "Expert-system research explored domain knowledge and explicit rules. The pin represents one research community, not the sole origin.",
+    "sourceUrl": "https://www.ibm.com/think/topics/history-of-artificial-intelligence",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-1997-4",
+    "name": "Deep Blue wins the match",
+    "year": 1997,
+    "city": "New York",
+    "country": "United States",
+    "coordinates": [
+      40.7128,
+      -74.006
+    ],
+    "creator": "IBM Research",
+    "description": "Deep Blue defeated Garry Kasparov in a six-game chess match. The pin marks the match city.",
+    "sourceUrl": "https://www.ibm.com/history/deep-blue",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2012-5",
+    "name": "Deep learning and ImageNet",
+    "year": 2012,
+    "city": "Toronto",
+    "country": "Canada",
+    "coordinates": [
+      43.6532,
+      -79.3832
+    ],
+    "creator": "Alex Krizhevsky, Ilya Sutskever, Geoffrey Hinton",
+    "description": "AlexNet demonstrated a major advance in image classification; Toronto represents the research team.",
+    "sourceUrl": "https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2016-6",
+    "name": "AlphaGo and reinforcement learning",
+    "year": 2016,
+    "city": "Seoul",
+    "country": "South Korea",
+    "coordinates": [
+      37.5665,
+      126.978
+    ],
+    "creator": "DeepMind",
+    "description": "AlphaGo’s match with Lee Sedol became a landmark demonstration. The pin represents the match city.",
+    "sourceUrl": "https://deepmind.google/research/alphago/",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2017-7",
+    "name": "The Transformer architecture",
+    "year": 2017,
+    "city": "Mountain View",
+    "country": "United States",
+    "coordinates": [
+      37.3861,
+      -122.0839
+    ],
+    "creator": "Vaswani and collaborators",
+    "description": "Attention-based sequence modeling changed the architecture of language AI. This is a representative research hub.",
+    "sourceUrl": "https://arxiv.org/abs/1706.03762",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2018-8",
+    "name": "BERT and language representations",
+    "year": 2018,
+    "city": "Mountain View",
+    "country": "United States",
+    "coordinates": [
+      37.3861,
+      -122.0839
+    ],
+    "creator": "Google researchers",
+    "description": "Bidirectional pretraining advanced language understanding.",
+    "sourceUrl": "https://research.google/pubs/bert-pre-training-of-deep-bidirectional-transformers-for-language-understanding/",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2020-9",
+    "name": "GPT-3 and few-shot learning",
+    "year": 2020,
+    "city": "San Francisco",
+    "country": "United States",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "creator": "OpenAI",
+    "description": "Large-scale language modeling demonstrated broad few-shot task performance.",
+    "sourceUrl": "https://arxiv.org/abs/2005.14165",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2020-10",
+    "name": "AlphaFold protein prediction",
+    "year": 2020,
+    "city": "London",
+    "country": "United Kingdom",
+    "coordinates": [
+      51.5074,
+      -0.1278
+    ],
+    "creator": "DeepMind and collaborators",
+    "description": "Protein-structure prediction became a major scientific AI milestone.",
+    "sourceUrl": "https://deepmind.google/science/alphafold/",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2022-11",
+    "name": "Conversational AI reaches a broad audience",
+    "year": 2022,
+    "city": "San Francisco",
+    "country": "United States",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "creator": "OpenAI",
+    "description": "ChatGPT helped bring conversational generative AI to a wider public.",
+    "sourceUrl": "https://www.ibm.com/think/topics/history-of-artificial-intelligence",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2023-12",
+    "name": "Open-weight model ecosystems expand",
+    "year": 2023,
+    "city": "Menlo Park",
+    "country": "United States",
+    "coordinates": [
+      37.453,
+      -122.1817
+    ],
+    "creator": "Meta and the open model community",
+    "description": "Llama contributed to a growing ecosystem of released language-model weights.",
+    "sourceUrl": "https://github.com/meta-llama/llama",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2024-13",
+    "name": "Multimodal interaction develops",
+    "year": 2024,
+    "city": "San Francisco",
+    "country": "United States",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "creator": "OpenAI and the wider research community",
+    "description": "GPT-4o’s original release combined text, vision, and audio interaction.",
+    "sourceUrl": "https://openai.com/index/hello-gpt-4o/",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2025-14",
+    "name": "Open reasoning research expands",
+    "year": 2025,
+    "city": "Hangzhou",
+    "country": "China",
+    "coordinates": [
+      30.2741,
+      120.1551
+    ],
+    "creator": "DeepSeek",
+    "description": "Published reasoning models and research broadened access to reasoning-model development.",
+    "sourceUrl": "https://github.com/deepseek-ai/DeepSeek-R1",
+    "kind": "history",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  },
+  {
+    "id": "history-2026-15",
+    "name": "Build with evidence, not hype",
+    "year": 2026,
+    "city": "Global learning journey",
+    "country": "Worldwide",
+    "coordinates": null,
+    "creator": "You, your users, and collaborators",
+    "description": "This final card is learning guidance, not a historical breakthrough: start with a real problem, establish a baseline, and measure whether a prototype helps.",
+    "sourceUrl": "https://developers.google.com/machine-learning/crash-course",
+    "kind": "guidance",
+    "color": 11903469,
+    "locationNote": "Representative event or research-affiliation city; many advances involved distributed collaborators."
+  }
+]
