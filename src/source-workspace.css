@@ -11,3 +11,13 @@
 .discovery-map-context{top:77px;max-height:100px;overflow:hidden;line-height:1.7}.map-coordinate{right:20px;line-height:1.6}.globe-bottom{right:65px;font-size:8px}.map-caption{right:65px;max-width:calc(100% - 90px)}.map-caption small{line-height:1.7}
 @media(max-width:1050px){.page-heading{flex-wrap:wrap}.heading-actions{max-width:100%}.map-top-right{margin-left:0}.atlas-top-tools{margin-left:0}.doctor-grid{max-width:360px}}
 @media(max-width:680px){.page-heading{gap:14px}.map-tabs{gap:10px;justify-content:space-between;width:100%}.map-tabs button{font-size:9px}.atlas-top-tools{width:100%;justify-content:flex-start}.map-topbar,.discovery-mode .map-topbar{padding:10px;gap:8px}.country-label-toggle{margin-right:auto}.globe-bottom{font-size:7px;right:54px}.discovery-map-context{top:76px;left:14px;right:15px}.doctor-grid{gap:16px}}
+/* One quiet scrollbar treatment for navigation, panels, and the page. */
+:root{color-scheme:dark;scrollbar-width:thin;scrollbar-color:#34584e #0b1219}
+body .rail-links,body .left-panel,body .right-panel #insight,body .discovery-results,body .map-layout,body .source-result,body textarea,body dialog{scrollbar-width:thin;scrollbar-color:#34584e #0b1219}
+::-webkit-scrollbar{width:6px;height:6px}
+::-webkit-scrollbar-track{background:#0b1219}
+::-webkit-scrollbar-thumb{background:#34584e;border:1px solid #0b1219;border-radius:8px}
+::-webkit-scrollbar-thumb:hover{background:#53a78b}
+::-webkit-scrollbar-thumb:active{background:#53dfb5}
+::-webkit-scrollbar-corner{background:#0b1219}
+::-webkit-scrollbar-button{display:none;width:0;height:0}
