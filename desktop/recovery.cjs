@@ -1,0 +1,5 @@
+const fs=require('node:fs');const path=require('node:path');
+function readGraphicsMode(directory,args=[]){if(args.includes('--compatibility-mode')||args.includes('--disable-gpu'))return 'basic';try{return JSON.parse(fs.readFileSync(path.join(directory,'graphics-settings.json'),'utf8')).mode==='basic'?'basic':'accelerated';}catch{return 'accelerated';}}
+function saveGraphicsMode(directory,mode){if(!['basic','accelerated'].includes(mode))throw Error('Invalid graphics mode.');fs.mkdirSync(directory,{recursive:true});fs.writeFileSync(path.join(directory,'graphics-settings.json'),JSON.stringify({mode}));}
+function createStartupLog(directory){const file=path.join(directory,'startup.log');return {file,write(event,details={}){try{fs.mkdirSync(directory,{recursive:true});if(fs.existsSync(file)&&fs.statSync(file).size>500000)fs.renameSync(file,path.join(directory,'startup-previous.log'));fs.appendFileSync(file,JSON.stringify({at:new Date().toISOString(),event,...details})+'\n');}catch{}}};}
+module.exports={readGraphicsMode,saveGraphicsMode,createStartupLog};

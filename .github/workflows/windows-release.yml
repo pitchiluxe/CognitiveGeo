@@ -32,6 +32,9 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_LINK: ${{ secrets.WINDOWS_CERTIFICATE }}
           CSC_KEY_PASSWORD: ${{ secrets.WINDOWS_CERTIFICATE_PASSWORD }}
+      - name: Verify packaged app startup and compatibility mode
+        shell: pwsh
+        run: ./scripts/smoke-desktop.ps1
       - run: npm run release:checksums
       - name: Publish installer, checksums and update feed
         uses: softprops/action-gh-release@v2

@@ -119,3 +119,10 @@ Threat Intelligence uses a dated bundled CISA KEV/GitHub-reviewed AI package adv
 Agent and creative tools produce editable implementation briefs, not deployed agents. Briefs and authorized inventory stay on the device unless exported. Country adoption covers six reviewed H2 2025 observations; other values are unknown. Product user metrics retain distinct periods and definitions and must not be summed. No inferred unique-user totals are displayed.
 
 The globe uses public geographic geometry, source-linked markers and measured render performance. Prior synthetic compute counts, security events, projections, city schematics and compliance rings have been removed.
+
+
+## Windows startup recovery
+
+If the entire installed window is black, use the native **Help → Restart in compatibility mode** menu. This saves a per-device preference, restarts without hardware acceleration, and skips the 3D globe while retaining catalogs, source research and client tools. **Help → Restart with 3D graphics** restores normal mode. `--compatibility-mode` is also supported. This is a recovery option, not a diagnosis of a particular computer.
+
+A startup placeholder is independent of the main app bundle, and failed module initialization shows a reload screen. The desktop startup watchdog, page-load failure, graphics-process failure, renderer crash and unresponsive-window handlers offer native recovery choices. Help → Open startup log opens the bounded local diagnostic log in the Electron user-data directory. Logs are not uploaded. No workspace records are cleared. Windows releases test the packaged executable in standard and compatibility modes before publishing.
