@@ -1,0 +1,3 @@
+import {writeFile} from 'node:fs/promises';import {normalizeRelease,VERIFIED_RELEASE} from '../src/windows-download.js';
+let release=VERIFIED_RELEASE;try{const r=await fetch('https://api.github.com/repos/pitchiluxe/CognitiveGeo/releases/latest',{headers:{Accept:'application/vnd.github+json'},signal:AbortSignal.timeout(4000)});if(r.ok)release=normalizeRelease(await r.json())||release;}catch{}
+await writeFile(new URL('../public/windows-release.json',import.meta.url),JSON.stringify({...release,checkedAt:new Date().toISOString()},null,2)+'\n');console.log('Bundling verified Windows download '+release.tag);

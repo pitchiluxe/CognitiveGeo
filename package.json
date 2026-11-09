@@ -18,7 +18,8 @@
     "desktop": "npm run build && electron .",
     "package:win": "npm run build && electron-builder --win nsis --x64 --publish never",
     "package:dir": "npm run build && electron-builder --dir --win --x64",
-    "release:checksums": "node scripts/checksums.mjs"
+    "release:checksums": "node scripts/checksums.mjs",
+    "prebuild": "node scripts/windows-release-manifest.mjs"
   },
   "dependencies": {
     "three": "^0.181.0",

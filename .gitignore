@@ -12,3 +12,6 @@ coverage/
 .env
 .env.*
 !.env.example
+
+# Generated verified release metadata
+/public/windows-release.json
