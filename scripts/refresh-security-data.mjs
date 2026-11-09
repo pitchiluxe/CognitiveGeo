@@ -1,0 +1,2 @@
+import fs from 'node:fs/promises';import {fetchSecurity} from '../server/security.js';
+const snapshot=await fetchSecurity();await fs.writeFile('public/security-snapshot.json',JSON.stringify({...snapshot,delivery:'Bundled official-source snapshot; use Refresh sources to request newer metadata.'},null,2)+'\n');console.log(`Stored ${snapshot.entries.length} sourced advisories at ${snapshot.retrievedAt}.`);

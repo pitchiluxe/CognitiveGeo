@@ -1,0 +1,2 @@
+import {fetchSecurity} from '../server/security.js';
+export default async function handler(req,res){res.setHeader('X-Content-Type-Options','nosniff');if(req.method!=='GET'){res.setHeader('Allow','GET');return res.status(405).json({error:'Use GET.'});}try{res.setHeader('Cache-Control','public, s-maxage=900');return res.status(200).json(await fetchSecurity());}catch{return res.status(502).json({error:'Official security sources could not be reached. Use the dated snapshot or source websites.'});}}

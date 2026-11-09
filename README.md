@@ -1,6 +1,6 @@
 # CognitiveGeo
 
-A vanilla JavaScript, Vite, and Three.js global AI infrastructure explorer. Includes a dotted 3D Earth, model runtime clusters, animated communication and threat paths, sample sovereign zones, a compute timeline, city infrastructure schematics, and adaptive performance monitoring.
+A source-linked AI research and client-delivery workspace built with Vite, vanilla JavaScript and Three.js. Geographic markers represent documented creator hubs, reported facilities, published national observations or explicitly proposed markets.
 
 Created by **Erick Omari**. [Website](https://pitchiluxe.github.io/CognitiveGeo/) · [Windows download](https://github.com/pitchiluxe/CognitiveGeo/releases/latest/download/CognitiveGeo-Setup.exe) · [Releases](https://github.com/pitchiluxe/CognitiveGeo/releases).
 
@@ -50,7 +50,6 @@ Country service patterns and the DRC plan are in `src/country-opportunity-data.j
 
 The left panel now has nine tabs:
 
-- **Runtimes** keeps the original simulated compute and threat views.
 - **AI atlas** maps 62 curated AI products, model families, and historical projects, including creator attribution, official links, sources, and review dates. Search by product, creator, or city; filter by category, region, access, or historical/modern era. Nearby profiles are grouped on the globe; click a count marker to choose a profile. This is not every AI ever created. Pins are approximate representative company/research hubs, not inference servers, exact offices, or proof of local product availability.
 - **Ideas** contains 20 original product concepts, 60 illustrative market pins, target buyers, measurable benefits, suggested AI tools, distribution and sharing mechanisms, MVPs, and validation checklists. Market assessments are editorial hypotheses, not measured sales rankings or investment recommendations. Each market's score is the unweighted mean of four 1–5 assumptions (buyer budget, addressable reach, pilot feasibility, distribution fit), multiplied by 20.
 - **Data centers** maps 65 sourced facility, campus, and selected regional-program records across Google, Microsoft, Equinix, and AWS. Filter by operator, region, and last-reported phase. Operational, under construction, commissioning, in development, announced, and unclear are distinct statuses. A future opening target does not establish construction. Building completion does not establish operational opening. This starter index is not a census of all data centers, and many operators are not yet covered.
@@ -89,9 +88,7 @@ Idea background reading uses the official OECD publication page and World Bank f
 
 The model receives the entered prompt and a compact set of public catalog records, not imported facility data. Research mode is constrained to existing catalog record IDs; factual pin names, source links, coordinates, and statuses are copied from those records, not invented by the model. Commentary is still unverified, and Ollama does not browse the web. Invention mode produces speculative proposals anchored to supplied pilot cities. It does not establish novelty, feasibility, local demand, deployment, profit, or world-changing impact. Export results to keep them beyond this session.
 
-The map’s **Layers** button adds eight optional overlays: AI engines, open-weight models, the current public registry results with known hubs, operating data centers, construction/commissioning, development/announced projects, invention pilot cities, and historical milestones. These combine with the current base view; nearby records have a chooser when clicked. Original simulated runtime and threat layers remain in the Runtimes panel.
 
-Model selection uses dropdowns: the runtime panel has local model families plus shortcuts to hosted-engine creator profiles; the AI atlas has a model-family dropdown and an engine dropdown for ChatGPT, Anthropic Claude, Grok, and Google Gemini. Hosted engines are not represented as local Ollama deployments.
 
 ### Local API setup
 
@@ -111,43 +108,14 @@ Official references: [Ollama generate API](https://docs.ollama.com/api/generate)
 
 For a production build, run `npm run build`. The deployable static output is in `dist/`. Run `npm run preview` to check it locally. No API keys, environment variables, backend, or React installation are required. Google Fonts is optional; local font fallbacks work without it. Geographic geometry is bundled from world-atlas, so the globe does not depend on a remote map or texture service.
 
-## Controls
 
-- Drag the globe to orbit, scroll or use +/− to zoom, and use Reset to return to the initial view.
-- Click a globe marker or a hub in the list to inspect hardware, model speeds, context allocations, and gateway security.
-- Search by city, country, or cluster ID. Region and model family filters combine with search. Press `/` to focus search.
-- Toggle AI clusters, attack trajectories, and sample compliance rings independently. Color runtime nodes by gateway security, token speed, context size, or VRAM footprint.
-- Use Threat intelligence to view sample security events.
-- Select a timeline year or press Play. 2022–2026 values are synthetic scenarios; 2027–2030 values use a 49% annual growth assumption. These are not historical observations or validated forecasts.
-- Inspect city infrastructure opens a procedural 3D schematic with data center and edge-device blocks. Return to globe restores the selected city's global position.
-- The location button uses the browser's permission prompt, then draws a sample flight path from the returned location to the demo inference hub. Coordinates stay in this browser session and are not transmitted to a server.
-- Export snapshot downloads JSON including year, layers, filters, selected cluster, and matching data. The header download exports the filtered cluster array in the original schema.
-- Click the avatar for auto-rotation and bloom settings. The question mark explains the demo.
 
-## Data and scope
+## Source-backed research tools
 
-`public/data.json` uses the requested schema exactly, including both provided records and 16 additional synthetic hubs. Coordinates are **[latitude, longitude]**. The model identifiers are scenario labels supplied in the brief, not a verified catalog of released models. Metric totals derive from mock records; runtime vector counts and throughput are modeled. Security events update on a local timer, not from a live feed.
+The left rail opens 15 working views: overview, AI atlas, public threat intelligence, agent design, creative workflows, published adoption observations, use cases and niches, countries, data centers, ideas, registry, client studio, history, Ollama generation and actual local activity.
 
-This application does not scan networks, discover exposed APIs, or collect real threat intelligence. Sample compliance rings are illustrative cluster footprints, not authoritative jurisdictional boundaries. The city view is a deterministic infrastructure schematic, not satellite imagery, real street view, or surveyed building footprints. Real monitoring, historical data, compliance maps, and street imagery require authorized upstream data and service integrations.
+Threat Intelligence uses a dated bundled CISA KEV/GitHub-reviewed AI package advisory snapshot. Refresh uses `/api/security` on Vercel, local development or desktop. Static Pages retains the dated snapshot and reports refresh unavailability. These are advisory records, not local detections, a scanner, live attack geolocations or a protection counter. Optional authorized JSON inventory matches explicit CVEs only; no match is not proof of safety. Review status is user-reported. Refresh the bundled snapshot with `node scripts/refresh-security-data.mjs`.
 
-## Architecture
+Agent and creative tools produce editable implementation briefs, not deployed agents. Briefs and authorized inventory stay on the device unless exported. Country adoption covers six reviewed H2 2025 observations; other values are unknown. Product user metrics retain distinct periods and definitions and must not be summed. No inferred unique-user totals are displayed.
 
-- `src/globe.js` — `GlobeScene`: WebGL scene, OrbitControls, bundled geographic geometry, shader atmosphere, bloom postprocessing, picking, batched runtime points, packet paths, geometry LOD, procedural city view, and resource cleanup.
-- `src/telemetry.js` — `TelemetryAPI`: fetches and validates the mock cluster dataset. Also provides pure filter and projection functions.
-- `src/main.js` — `TrackerUI`: UI state, event binding, accessible controls, filtering, details, exports, and the Agent Doctor HUD.
-- `src/style.css` — responsive console layout, design tokens, keyboard focus, and reduced-motion support.
-- `src/discovery.js` / `src/discovery-data.js` — directory and idea UI, validated loading, filtering, saved lists, comparisons, share links, launch briefs, and revenue modeling.
-- `src/facilities.js` / `src/facility-data.js` — sourced facility UI, phase filters, strict JSON/GeoJSON imports, persistence, and exports.
-- `src/discovery.css` / `src/responsive.css` — responsive explorer and comparison layouts.
-
-## Performance
-
-12,846 runtime vectors render in one `THREE.Points` batch at the 2026 baseline, increasing to 63,316 in the 2030 scenario. Earlier years reduce the batch draw range. The globe selects between two geometry detail levels by camera distance. Land geometry and procedural textures are created once; stars and packets reuse buffers/geometries. Agent Doctor samples actual render rate and lowers pixel ratio in steps when it falls below 42 FPS, with a 0.75 floor. Rendering pauses when the tab is hidden. Auto-rotation and packet motion respect reduced-motion preferences. Heap figures use Chromium's optional `performance.memory` API and display N/A elsewhere.
-
-60 FPS is a target, not a hardware-independent guarantee. On slower GPUs the HUD reports the measured frame rate and adaptive quality. The visual stack uses bloom and shader atmosphere; ambient occlusion is not included because the global map uses emissive/unlit geometry. City buildings use edge outlines to keep the schematic legible.
-
-## Verify
-
-Run `npm test` for dataset integrity, combined filters, and timeline projections. Run `npm run build` to verify production bundling. A WebGL-capable browser with hardware acceleration is recommended. If WebGL is unavailable, the app retains searchable cluster details, filters, timeline, and exports with a clear map error.
-
-Geographic source: world-atlas / Natural Earth (public domain). Package licenses remain with their respective authors.
+The globe uses public geographic geometry, source-linked markers and measured render performance. Prior synthetic compute counts, security events, projections, city schematics and compliance rings have been removed.
