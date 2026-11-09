@@ -18,9 +18,21 @@ The first releases are unsigned because no Windows signing certificate has been 
 
 The multi-resolution Windows ICO and matching PNG/SVG are in `desktop/resources/` and `public/brand/`. `scripts/build-icon.py` regenerates them with Pillow.
 
+## Country opportunities and country-name tags
+
+**Countries & needs** covers 193 UN member states plus the Holy See and State of Palestine (195 entries). Territories and other disputed-status jurisdictions are outside this explicit roster. Search by name/ISO code, filter by region or opportunity sector, or choose **Explore DRC**. Each country has dated national internet-use and electricity-access observations where available, delivery constraints, buyer categories, 14 reusable proposed services, illustrative setup/subscription pricing, and a revenue calculator. Four services concern IAM: joiner/mover/leaver workflows, access certification, privileged access requests, and inclusive account-onboarding support. Open a proposal's launch agent for its build prompts and customer playbook; export country research or an individual opportunity as JSON.
+
+Country coverage is geographic; it is not a claim that every country's market gaps, laws, clients, AI deployments, or willingness to pay have been researched. Service patterns are general hypotheses adapted with country metadata. Countries without reviewed deployment examples explicitly say so. Positive-use examples for Kenya/Tanzania and India are sourced separately; the DRC civil-servant registry is labeled a digital foundation, not an AI deployment. DRC has an editorial first-buyer sequence, locally validated language guidance, and a 90-day pilot-to-recurring-service plan. Potential clients are organization types, not confirmed leads. National reform requires institutions, infrastructure, accountability, and evidence from multiple deployments.
+
+The map's **Country names** checkbox shows/hides country-name tags in every app view, remembers the preference on this device, and hides labels behind the Earth or in city view. Tags avoid overlap and increase in density on zoom. Country names also appear on the landing globe. Labels and country opportunity markers use representative national coordinates, not exact capitals or known installations. Additional Layers includes country-opportunity and IAM-proposal anchors.
+
+`public/countries.json` is an attributed snapshot: adapted geography from [mledoze/countries](https://github.com/mledoze/countries) under [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/); national indicators from World Bank WDI (ITU internet-use series and World Bank/ESMAP electricity-access series) under CC BY 4.0. Observation years and database update dates are retained; missing values stay unknown. The geographic data's Vatican City membership flag is corrected to observer status. This adapted country database is distributed under ODbL 1.0, with indicator-source attribution retained; this notice does not relicense the app's code. Rebuild the snapshot with `node scripts/refresh-country-data.mjs` and inspect the roster/data before publishing. Internet below 50% and electricity below 70% trigger transparent delivery-planning heuristics, not demand or profitability scores.
+
+Country service patterns and the DRC plan are in `src/country-opportunity-data.js`; the interface is `src/country-opportunities.js`. Infrastructure indicators cannot establish purchasing power, actual site reliability, or commercial success. Prices and costs are editable hypotheses; setup income is excluded from recurring-revenue calculations.
+
 ## AI atlas, ideas, and data centers
 
-The left panel now has seven tabs:
+The left panel now has eight tabs:
 
 - **Runtimes** keeps the original simulated compute and threat views.
 - **AI atlas** maps 62 curated AI products, model families, and historical projects, including creator attribution, official links, sources, and review dates. Search by product, creator, or city; filter by category, region, access, or historical/modern era. Nearby profiles are grouped on the globe; click a count marker to choose a profile. This is not every AI ever created. Pins are approximate representative company/research hubs, not inference servers, exact offices, or proof of local product availability.

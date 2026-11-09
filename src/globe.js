@@ -6,6 +6,8 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
 import { feature } from 'topojson-client';
 import world from 'world-atlas/countries-110m.json';
+import {CountryLabels} from './country-labels.js';
+import './country-labels.css';
 
 const GREEN = 0x53dfb5, RED = 0xff7777;
 export function latLon(lat, lon, radius = 2) {
@@ -31,7 +33,7 @@ export class GlobeScene {
     this.renderer.domElement.addEventListener('pointerdown', e => { this.down = [e.clientX,e.clientY]; });
     this.renderer.domElement.addEventListener('pointerup', e => { if (!this.down || Math.hypot(e.clientX-this.down[0],e.clientY-this.down[1]) > 5 || this.cityMode) return; const r = container.getBoundingClientRect(); this.pointer.set((e.clientX-r.left)/r.width*2-1,-(e.clientY-r.top)/r.height*2+1); this.raycaster.setFromCamera(this.pointer,this.camera);const group=this.explorerActive?this.explorerMarkers:this.markers;const targets=[...(group.visible?group.children:[]),...this.overlayMarkers.children].filter(m=>m.visible&&m.isMesh); const hit = this.raycaster.intersectObjects(targets).find(h => h.point.clone().normalize().dot(this.camera.position.clone().normalize()) > .18); if(hit){const pin=hit.object.userData.pins?.[hit.instanceId]??hit.object.userData.pin;if(hit.object.userData.overlay)this.overlayPick?.(pin);else if(this.explorerActive)this.explorerPick?.(pin);else onSelect(hit.object.userData.cluster);} });
     this.resizeObserver = new ResizeObserver(() => this.resize()); this.resizeObserver.observe(container); this.resize();
-    this.frames = 0; this.lastSample = performance.now(); this.lastFrame = this.lastSample; this.running = true; this.animate();
+    this.frames = 0; this.lastSample = performance.now(); this.lastFrame = this.lastSample; this.running = true; this.animate();this.countryLabelsVisible=true;try{this.countryLabelsVisible=localStorage.getItem('cognitivegeo-country-labels')!=='off';}catch{}fetch(import.meta.env.BASE_URL+'countries.json').then(r=>{if(!r.ok)throw Error('Country labels unavailable');return r.json();}).then(data=>{if(!this.running)return;this.countryLabels=new CountryLabels(this,data.entries);this.countryLabels.setVisible(this.countryLabelsVisible);}).catch(()=>{});
     this.renderer.domElement.addEventListener('webglcontextlost', e => { e.preventDefault(); this.running=false; onPerformance({fps:0,quality:'Context lost · reload',memory:null}); });
     document.addEventListener('visibilitychange', () => {this.lastSample = performance.now();this.frames=0;});
   }
@@ -97,5 +99,5 @@ export class GlobeScene {
   setYear(year){this.year=year;const ratio=Math.min(1,Math.pow(1.49,year-2030));this.density.geometry.setDrawRange(0,Math.round(this.runtimeCount*ratio));}
   resize(){const w=this.container.clientWidth,h=this.container.clientHeight;if(!w||!h)return;this.camera.aspect=w/h;this.camera.fov=w<h?2*Math.atan(Math.tan(19*Math.PI/180)/(w/h))*180/Math.PI:38;this.camera.updateProjectionMatrix();this.renderer.setSize(w,h);this.composer?.setSize(w,h);}
   animate(){if(!this.running)return;this.frame=requestAnimationFrame(()=>this.animate());if(document.hidden)return;const now=performance.now(),t=now*.0001;this.frames++;if(this.destination){this.camera.position.lerp(this.destination,.055);if(this.camera.position.distanceTo(this.destination)<.01)this.destination=null;}this.controls.update();if(!this.reducedMotion)this.packets.forEach(({packet,curve,offset})=>packet.position.copy(curve.getPoint((t+offset)%1)));this.composer.render();if(now-this.lastSample>1500){const fps=Math.round(this.frames*1000/(now-this.lastSample));if(fps<42&&this.pixelRatio>.75){this.pixelRatio=Math.max(.75,this.pixelRatio-.2);this.renderer.setPixelRatio(this.pixelRatio);this.composer.setPixelRatio(this.pixelRatio);this.resize();}this.onPerformance({fps,quality:this.pixelRatio<1.1?'Adaptive':'High',memory:performance.memory?Math.round(performance.memory.usedJSHeapSize/1048576):null});this.frames=0;this.lastSample=now;}}
-  dispose(){this.running=false;cancelAnimationFrame(this.frame);this.resizeObserver.disconnect();this.controls.dispose();this.scene.traverse(o=>{o.geometry?.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>{m?.map?.dispose();m?.dispose();});});this.composer.dispose();this.renderer.dispose();}
+  dispose(){this.countryLabels?.dispose();this.running=false;cancelAnimationFrame(this.frame);this.resizeObserver.disconnect();this.controls.dispose();this.scene.traverse(o=>{o.geometry?.dispose();const mats=Array.isArray(o.material)?o.material:[o.material];mats.forEach(m=>{m?.map?.dispose();m?.dispose();});});this.composer.dispose();this.renderer.dispose();}
 }
