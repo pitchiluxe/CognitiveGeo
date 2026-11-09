@@ -3,6 +3,7 @@ import './discovery.css';
 import { FacilityExplorer } from './facilities.js';
 import { AtlasTools } from './atlas-tools.js';
 import { IdeaLaunchAgent } from './idea-agent.js';
+import { RandomIdeas } from './random-ideas.js';
 
 const $=s=>document.querySelector(s);
 const esc=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -48,6 +49,7 @@ export class DiscoveryExplorer {
     $('#discovery-panel').setAttribute('aria-labelledby',`explorer-${this.mode}`);
     if(this.tools.isCustom(this.mode)){this.tools.render();return;}
     if(this.mode==='centers'){this.facilities.render();return;}
+    if(this.mode==='ideas')this.randomIdeas??=new RandomIdeas(this);
     const directory=this.mode==='directory';const categories=[...new Set((directory?this.catalog:this.ideas).map(x=>directory?x.category:x.sector))].sort();
     $('#discovery-panel').setAttribute('aria-labelledby',`explorer-${this.mode}`);
     $('#discovery-panel').innerHTML=`<div class="discovery-heading"><h2>${directory?'The AI atlas':'Build something that matters.'}</h2><span>${directory?`${this.catalog.length} curated profiles`:`${this.ideas.length} product concepts`}</span></div><p class="discovery-intro">${directory?'Explore AI products, model families, and historical milestones. Pins show representative creator hubs.':'Explore useful AI products and places to test them. Market fit and revenue are hypotheses to validate.'}</p>
@@ -57,6 +59,7 @@ export class DiscoveryExplorer {
       <div class="discovery-tools"><button id="saved-filter" class="chip ${this.filters.savedOnly?'active':''}" aria-pressed="${this.filters.savedOnly}">☆ Saved only</button><button id="compare-items" class="chip">Compare <span id="compare-count">${this.compared.size}</span>/3</button></div>
       <div class="discovery-result-header"><strong id="discovery-count"></strong><button id="clear-discovery-filters">Reset filters</button></div><div id="discovery-results" class="discovery-results"></div>
       <div class="discovery-actions"><button class="button" id="export-discovery">Export list</button><button class="button" id="share-discovery">Share view</button></div><button class="methodology-link" id="discovery-methodology">${directory?'Coverage, sources & map locations':'How market assessments work'}</button><p class="discovery-footnote">${directory?'A curated starting point, not every AI ever created. Open weights does not imply unrestricted commercial use.':'Concepts are original editorial ideas. Scores are illustrative; no verified sales data or guaranteed outcomes.'}<br>Sources reviewed ${REVIEWED_ON}.</p>`;
+    if(!directory)this.randomIdeas.mount();
     for(const key of ['category','region',...(directory?['access','era']:[])]){const control=$(`#discovery-${key}`);control.value=this.filters[key];control.addEventListener('change',()=>{this.filters[key]=control.value;this.updateResults();});}
     if(directory){$('#discovery-family').value=this.filters.family||'all';$('#discovery-family').addEventListener('change',e=>{this.filters.family=e.target.value;this.updateResults();});$('#ai-engine-select').addEventListener('change',e=>{const id=e.target.value;if(!id)return;this.filters={search:'',category:'all',region:'all',access:'all',era:'all',family:'all',savedOnly:false};this.renderPanel();$('#ai-engine-select').value=id;this.select(id);});}
     $('#discovery-search').addEventListener('input',e=>{this.filters.search=e.target.value;this.updateResults();});
@@ -67,7 +70,7 @@ export class DiscoveryExplorer {
   updateResults(){
     if(this.tools.isCustom(this.mode)){this.tools.render();return;}
     if(this.mode==='centers'){this.facilities.update();return;}
-    const directory=this.mode==='directory',filters={...this.filters,saved:this.saved};this.results=directory?filterDirectory(this.catalog,filters):filterIdeas(this.ideas,filters);
+    const directory=this.mode==='directory',filters={...this.filters,saved:this.saved};this.results=directory?filterDirectory(this.catalog,filters):filterIdeas(this.randomIdeas?.filter()||this.ideas,filters);
     $('#discovery-count').textContent=`${this.results.length} ${directory?'AI profiles':'ideas'}`;
     $('#discovery-results').innerHTML=this.results.length?this.results.map(x=>`<article class="discovery-card ${this.selected?.id===x.id?'selected':''}" data-card="${esc(x.id)}"><div class="discovery-card-meta"><span>${esc(directory?x.category:x.sector)}</span><button data-save="${esc(x.id)}" class="save-button ${this.saved.includes(x.id)?'saved':''}" aria-label="${this.saved.includes(x.id)?'Unsave':'Save'} ${esc(x.name)}" aria-pressed="${this.saved.includes(x.id)}">${this.saved.includes(x.id)?'★':'☆'}</button></div><button class="discovery-card-main" data-entry="${esc(x.id)}"><strong>${esc(x.name)}</strong><small>${esc(directory?x.creator:x.buyer)}</small><p>${esc(x.description)}</p></button><div class="discovery-card-bottom"><span>${directory?esc(`${x.city} · ${x.access}`):`${x.markets.filter(m=>this.filters.region==='all'||m.region===this.filters.region).length} test markets · concept`}</span><label><input type="checkbox" data-compare="${esc(x.id)}" aria-label="Compare ${esc(x.name)}" ${this.compared.has(x.id)?'checked':''}> Compare</label></div></article>`).join(''):'<div class="empty-state"><strong>No matching entries.</strong><p>Try a different region or category, or turn off Saved only.</p></div>';
     $('#discovery-results').querySelectorAll('[data-entry]').forEach(b=>b.addEventListener('click',()=>this.select(b.dataset.entry)));
