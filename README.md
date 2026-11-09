@@ -43,6 +43,14 @@ Discovery data is stored in `public/catalog.json`, `public/opportunities.json`, 
 
 ## Models, history, map overlays, and Ollama
 
+### Idea launch agent
+
+Select an idea and choose **Open idea launch agent** in its details. Choose its pilot market, target weeks, and your requirements. The ready-to-use starter pack includes a product blueprint, master implementation prompt, six specialist agent briefs, and a customer playbook covering niche research, first contact, follow-ups, discovery, a scoped pilot, onboarding, acceptance, and customer support. Each pack uses that idea's actual MVP, buyer, risk, outcome, and market rationale. Copy individual sections into your coding/planning agent or download the complete Markdown pack.
+
+Starter packs are contextual templates, available on the hosted website without a model connection. **Refine with your local AI agent** connects to installed local Ollama models in the Windows edition or local development server. It adds a separately labeled AI draft with requirements, implementation, outreach, rollout, and risks. Incomplete results are rejected; cancellation or failure preserves the starter pack. Entered requirements go only to that local model when Generate is clicked; no contacts are researched or messages sent automatically. No new platform is built or deployed by this UI. Review plans and use the prompts with an agent that has the appropriate tools. Downloads keep the pack; it is not persisted automatically.
+
+Idea background reading uses the official OECD publication page and World Bank full-report PDF, plus permanent DOI alternatives. These are external sources; their availability and access restrictions remain controlled by the publishers.
+
 **Models** searches live public Hugging Face repositories through a fixed-host local preview proxy. Results are paginated (50 per page); no model weights are downloaded. Publisher hubs are mapped only when they are present in the curated `public/publishers.json` table. Unknown publisher locations remain searchable but are not pinned. Public repositories do not cover every private, deleted, or unpublished AI, and publisher locations are not exact training or serving sites. The AI atlas retains source-linked profiles for proprietary products such as ChatGPT, Claude, Grok, and Gemini.
 
 **History & learn** contains 16 selected historical/learning cards, with a 1950–2026 range control and a six-week suggested learning roadmap. Representative research/event cities are distinguished from exact creation locations. The final guidance card is not presented as a historical breakthrough. Sources and learning links appear in the app.
