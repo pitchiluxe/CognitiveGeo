@@ -1,0 +1,7 @@
+import {normalizeNotices} from '../src/procurement-data.js';
+const cache=new Map();
+export async function fetchProcurement({query='',offset=0}={}){
+ query=String(query).trim().slice(0,120);offset=Math.min(10000,Math.max(0,Math.floor(Number(offset)||0)));const key=`${query}:${offset}`,cached=cache.get(key);if(cached&&Date.now()-cached.time<300000)return cached.value;
+ const url=new URL('https://search.worldbank.org/api/v2/procnotices');url.searchParams.set('format','json');url.searchParams.set('rows','50');url.searchParams.set('os',String(offset));if(query)url.searchParams.set('qterm',query);
+ const response=await fetch(url,{headers:{Accept:'application/json'},signal:AbortSignal.timeout(20000)});if(!response.ok)throw Error('The official notice source is temporarily unavailable.');const data=await response.json();if(!data.procnotices||typeof data.procnotices!=='object')throw Error('The official notice source returned an unexpected format.');const value={entries:normalizeNotices(data),total:Number(data.total)||0,offset,query,retrievedAt:new Date().toISOString(),sourceUrl:'https://projects.worldbank.org/en/projects-operations/opportunities',note:'World Bank procurement metadata. Awarded, planning, past-deadline and undated records are not confirmed active bids. Budgets are not extracted. Verify eligibility, local deadline time and source documents.'};if(cache.size>30)cache.clear();cache.set(key,{time:Date.now(),value});return value;
+}

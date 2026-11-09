@@ -13,6 +13,7 @@ async function startLocalServer(root,{port=0}={}){
   let url;try{url=new URL(req.url,origin);}catch{return error(res,400,'Invalid URL.');}
   if(url.pathname.startsWith('/api/')){
    if(req.headers.origin&&req.headers.origin!==origin)return error(res,403,'Only this local app can use this endpoint.');
+   if(url.pathname==='/api/procurement'&&req.method==='GET'){try{const {fetchProcurement}=await import('../server/procurement.js');const data=await fetchProcurement({query:url.searchParams.get('q')||'',offset:url.searchParams.get('offset')});res.writeHead(200,{'Content-Type':'application/json','Cache-Control':'no-store'});res.end(JSON.stringify(data));}catch{return error(res,502,'Official procurement source unavailable. Open the source website or try again later.');}return;}
    let target;
    if(url.pathname==='/api/ollama/tags'&&req.method==='GET')target=new URL('http://127.0.0.1:11434/api/tags');
    else if(url.pathname==='/api/ollama/generate'&&req.method==='POST')target=new URL('http://127.0.0.1:11434/api/generate');

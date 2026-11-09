@@ -4,6 +4,22 @@ A vanilla JavaScript, Vite, and Three.js global AI infrastructure explorer. Incl
 
 Created by **Erick Omari**. [Website](https://pitchiluxe.github.io/CognitiveGeo/) · [Windows download](https://github.com/pitchiluxe/CognitiveGeo/releases/latest/download/CognitiveGeo-Setup.exe) · [Releases](https://github.com/pitchiluxe/CognitiveGeo/releases).
 
+## Client studio: from an idea to a delivered project
+
+Choose **Plan a client project** on an idea or country-service detail to prefill a prospect's brief, then enter the actual organization. **Client studio** has seven connected sections:
+
+- **Customer pipeline:** organization, country, stage, public source and your review date, permitted contact details, next dated action, project brief, notes, and an opt-out flag. Opt-outs block outreach drafting. Records on the globe use country anchors, not exact client addresses. Stages do not establish a buying commitment.
+- **Proposals:** create an editable customer-specific proposal with scope, acceptance, schedule, proposed USD fees, responsibilities and exclusions. Save/copy/download Markdown. Outreach templates are drafts only. Optional local Ollama refinement sends only the selected organization name, idea, problem, MVP, outcome and safeguards, after Generate is clicked. Contact details, research notes and IAM uploads are excluded. AI output stays separate until explicitly appended. No message, signature or tender submission is sent.
+- **Opportunity radar:** fetch paginated public World Bank procurement metadata through a fixed-host adapter. Awarded/closed records, planning notices, expired dates and missing deadlines are distinguished. Budgets are deliberately unknown rather than extracted from award prices. Verify original documents, amendments, local deadline time and eligibility. UNGM is a clearly labeled official-source handoff, not a connected feed. A notice can prefill a researched prospect; it does not become a confirmed client.
+- **Pilot results:** record baseline/result, unit, whether higher/lower is better, comparable task volume, explicit USD value per unit, period cost, measurement source and status. Zero baselines have no percentage change. Monetary value is a user-supplied scenario; the tool does not establish causation, attributable savings or customer acceptance.
+- **Build workspace:** track acceptance tasks and evidence. Pass requires an evidence note or link and is labeled self-reported. Download a ZIP containing a runnable loopback-only Node.js review-queue starter, persistent work items, a basic test, the selected brief, coding-agent assignment and acceptance checklist. The domain workflow, production authentication, AI integrations and deployment still need implementation. Repository/deployment links are entered by the user and are not independently verified; downloading does not create a repository or deploy an application.
+- **IAM assessment:** inspect a minimal authorized CSV (5 MB / 5,000 rows), using explicit read-only rules for privileged accounts without MFA, missing owners, terminated-but-active accounts, stale active logins and duplicate IDs. Missing fields remain unknown. Account rows stay in memory, never enter AI prompts or the workspace backup, and can be cleared. A downloaded assessment is user-controlled. No account is changed and findings are not proof of compromise or a compliance certification.
+- **Local partners:** maintain a sourced directory of implementation, training, language-review and support providers. Four DRC public-source research starting points are included separately from your records. Provider descriptions, credentials, references, availability and commercial suitability require verification; there is no endorsement or confirmed partnership.
+
+Studio data is stored in browser localStorage on this device, separately per website/desktop origin; it is not encrypted team storage or cloud synchronization. Export JSON backups and restore them through validation and an explicit replacement button. Backups are limited to 5 MB; each collection is limited to 1,000 records. Invalid imports do not replace current data, and conflicting writes from another tab are rejected. Storage failures leave changes in memory with an export warning. Do not enter passwords, private keys or access tokens. Shared map URLs do not transfer private workspace records.
+
+`src/studio-data.js`, `src/iam-assessment.js`, `src/procurement-data.js` and `src/build-workspace.js` contain the tested data/assessment/export rules. `src/client-studio.js` is the UI. `server/procurement.js` is shared by the Vite development adapter, Electron loopback server and Vercel `api/procurement.js`. Only public keyword queries are sent to the World Bank; raw notice HTML and individual contact fields are not returned to the client. GitHub Pages attempts the public source directly and shows explicit errors if cross-origin access is unavailable.
+
 ## Website and Windows edition
 
 The matching landing page is `index.html`; the interactive atlas is `app.html`. Both are included in the production build. The Windows x64 edition bundles the atlas, its datasets, the local Ollama connection, and the public model-registry proxy. Ollama must be installed and running separately. The website's public model search connects directly to Hugging Face; local generation is available in the Windows edition or the local development server.
@@ -32,7 +48,7 @@ Country service patterns and the DRC plan are in `src/country-opportunity-data.j
 
 ## AI atlas, ideas, and data centers
 
-The left panel now has eight tabs:
+The left panel now has nine tabs:
 
 - **Runtimes** keeps the original simulated compute and threat views.
 - **AI atlas** maps 62 curated AI products, model families, and historical projects, including creator attribution, official links, sources, and review dates. Search by product, creator, or city; filter by category, region, access, or historical/modern era. Nearby profiles are grouped on the globe; click a count marker to choose a profile. This is not every AI ever created. Pins are approximate representative company/research hubs, not inference servers, exact offices, or proof of local product availability.

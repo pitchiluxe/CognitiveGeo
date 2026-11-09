@@ -9,7 +9,7 @@
   "build":{
     "appId":"com.erickomari.cognitivegeo","productName":"CognitiveGeo","copyright":"Copyright © 2026 Erick Omari",
     "directories":{"output":"release","buildResources":"desktop/resources"},
-    "files":["dist/**/*","desktop/**/*.cjs","desktop/resources/icon.png","package.json"],
+    "files":["dist/**/*","desktop/**/*.cjs","desktop/resources/icon.png","server/**/*.js","src/procurement-data.js","package.json"],
     "asar":true,
     "win":{"icon":"desktop/resources/icon.ico","target":[{"target":"nsis","arch":["x64"]}],"artifactName":"CognitiveGeo-Setup.${ext}"},
     "nsis":{"oneClick":false,"perMachine":false,"allowToChangeInstallationDirectory":true,"createDesktopShortcut":true,"createStartMenuShortcut":true,"shortcutName":"CognitiveGeo","installerIcon":"desktop/resources/icon.ico","uninstallerIcon":"desktop/resources/icon.ico","deleteAppDataOnUninstall":false},
