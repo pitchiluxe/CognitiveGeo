@@ -17,6 +17,14 @@ jobs:
         with:
           node-version: 22
           cache: npm
+      - name: Cache Windows packaging tools
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~\AppData\Local\electron\Cache
+            ~\AppData\Local\electron-builder\Cache
+          key: windows-packaging-${{ hashFiles('package-lock.json') }}
+          restore-keys: windows-packaging-
       - run: npm ci
       - run: npm test
       - name: Assign an increasing release version
@@ -27,7 +35,19 @@ jobs:
           npm version $releaseVersion --no-git-tag-version
           "RELEASE_VERSION=$releaseVersion" >> $env:GITHUB_ENV
       - name: Build Windows installer and update metadata
-        run: npm run package:win
+        shell: pwsh
+        run: |
+          $PSNativeCommandUseErrorActionPreference = $false
+          for ($attempt = 1; $attempt -le 3; $attempt++) {
+            $buildLog = Join-Path $env:RUNNER_TEMP "installer-build-$attempt.log"
+            npm run package:win 2>&1 | Tee-Object -FilePath $buildLog
+            $buildExit = $LASTEXITCODE
+            if ($buildExit -eq 0) { break }
+            $details = Get-Content -LiteralPath $buildLog -Raw
+            if ($attempt -eq 3 -or $details -notmatch '504|Gateway Time-out|ETIMEDOUT|ECONNRESET|socket hang up') { exit $buildExit }
+            Write-Host 'Retrying a temporary packaging download failure; downloaded tools stay cached.'
+            Start-Sleep -Seconds 5
+          }
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CSC_LINK: ${{ secrets.WINDOWS_CERTIFICATE }}
