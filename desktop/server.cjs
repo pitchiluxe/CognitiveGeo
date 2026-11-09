@@ -2,12 +2,13 @@ const http=require('node:http');
 const https=require('node:https');
 const fs=require('node:fs');
 const path=require('node:path');
-const TYPES={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.ico':'image/x-icon','.woff2':'font/woff2'};
-const CSP="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'";
+const TYPES={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.png':'image/png','.webp':'image/webp','.ico':'image/x-icon','.woff2':'font/woff2','.ttf':'font/ttf'};
+const CSP="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' data: blob:; connect-src 'self' https://api.github.com; object-src 'none'; base-uri 'self'; frame-ancestors 'none'";
 function error(res,status,message){if(!res.headersSent)res.writeHead(status,{'Content-Type':'application/json'});res.end(JSON.stringify({error:message}));}
-async function startLocalServer(root,{port=0}={}){
- const assets=path.resolve(root);let origin;
- const server=http.createServer(async(req,res)=>{
+function createAppHandler(root,getOrigin){
+ const assets=path.resolve(root);
+ return async(req,res)=>{
+  const origin=getOrigin();
   res.setHeader('X-Content-Type-Options','nosniff');res.setHeader('Content-Security-Policy',CSP);res.setHeader('Referrer-Policy','no-referrer');
   if(req.headers.host!==new URL(origin).host)return error(res,403,'Invalid local host.');
   let url;try{url=new URL(req.url,origin);}catch{return error(res,400,'Invalid URL.');}
@@ -35,8 +36,11 @@ async function startLocalServer(root,{port=0}={}){
   if(decoded.includes('\0')||decoded.includes('\\'))return error(res,403,'Invalid asset path.');
   const file=path.resolve(assets,'.'+(decoded==='/'?'/index.html':decoded));if(!file.startsWith(assets+path.sep))return error(res,403,'Asset outside application.');
   try{const info=await fs.promises.stat(file);if(!info.isFile())return error(res,404,'Asset not found.');res.writeHead(200,{'Content-Type':TYPES[path.extname(file)]||'application/octet-stream','Cache-Control':url.pathname.startsWith('/assets/')?'public, max-age=31536000, immutable':'no-cache','Content-Length':info.size});if(req.method==='HEAD')res.end();else{const stream=fs.createReadStream(file);stream.on('error',()=>res.destroy());stream.pipe(res);}}catch{return error(res,404,'Asset not found.');}
- });
+ };
+}
+async function startLocalServer(root,{port=0}={}){
+ let origin;const server=http.createServer(createAppHandler(root,()=>origin));
  await new Promise((resolve,reject)=>{server.once('error',reject);server.listen(port,'127.0.0.1',resolve);});origin=`http://127.0.0.1:${server.address().port}`;
  return {origin,close:()=>new Promise(resolve=>{server.close(resolve);server.closeAllConnections?.();})};
 }
-module.exports={startLocalServer};
+module.exports={startLocalServer,createAppHandler};

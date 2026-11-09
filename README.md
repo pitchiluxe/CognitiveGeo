@@ -126,3 +126,8 @@ The globe uses public geographic geometry, source-linked markers and measured re
 If the entire installed window is black, use the native **Help → Restart in compatibility mode** menu. This saves a per-device preference, restarts without hardware acceleration, and skips the 3D globe while retaining catalogs, source research and client tools. **Help → Restart with 3D graphics** restores normal mode. `--compatibility-mode` is also supported. This is a recovery option, not a diagnosis of a particular computer.
 
 A startup placeholder is independent of the main app bundle, and failed module initialization shows a reload screen. The desktop startup watchdog, page-load failure, graphics-process failure, renderer crash and unresponsive-window handlers offer native recovery choices. Help → Open startup log opens the bounded local diagnostic log in the Electron user-data directory. Logs are not uploaded. No workspace records are cleared. Windows releases test the packaged executable in standard and compatibility modes before publishing.
+
+
+### Internal desktop page loading
+
+The Windows app now serves its bundled UI and API bridge inside Electron using a handler restricted to the existing app origin (`http://127.0.0.1:35471`). That address is retained for saved browser storage, but the app does not open or connect to a TCP listener there. Other HTTP origins retain normal network handling. Public-source requests and Ollama still require their actual upstream services. DM Sans and Space Grotesk are bundled with their SIL OFL license texts; startup does not request Google Fonts. Packaged smoke tests include an unreachable proxy and an occupied port 35471.

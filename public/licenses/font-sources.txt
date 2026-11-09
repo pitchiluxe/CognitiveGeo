@@ -1,0 +1,4 @@
+Bundled fonts obtained from google/fonts on 2026-11-09.
+DM Sans: https://github.com/google/fonts/tree/main/ofl/dmsans
+Space Grotesk: https://github.com/google/fonts/tree/main/ofl/spacegrotesk
+Original font family names retained. SIL Open Font License texts included here.

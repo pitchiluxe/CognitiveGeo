@@ -1,4 +1,4 @@
-const {app,BrowserWindow,Menu,Notification,ipcMain,shell,dialog}=require('electron');
+const {app,BrowserWindow,Menu,Notification,ipcMain,shell,dialog,session}=require('electron');
 const {autoUpdater}=require('electron-updater');
 const path=require('node:path');
 const {readGraphicsMode,saveGraphicsMode,createStartupLog}=require('./recovery.cjs');
@@ -12,14 +12,14 @@ const appURL=()=>local.origin+'/app.html'+(graphicsMode==='basic'?'?graphics=bas
 function restartGraphics(mode){try{saveGraphicsMode(app.getPath('userData'),mode);}catch{dialog.showErrorBox('Could not save graphics preference','Check that your Windows profile folder is writable.');return;}app.relaunch({args:process.argv.slice(1).filter(a=>!['--compatibility-mode','--disable-gpu'].includes(a))});app.quit();}
 async function showRecovery(reason){startupLog.write('recovery',{reason});if(smoke||recoveryOpen||!window||window.isDestroyed())return;recoveryOpen=true;window.show();try{const {response}=await dialog.showMessageBox(window,{type:'warning',title:'CognitiveGeo startup recovery',message:'The workspace could not display correctly.',detail:reason+'\nRestart in compatibility mode to disable 3D graphics. Your saved workspace will be kept. Startup details are stored locally in startup.log.',buttons:['Restart in compatibility mode','Reload app','Open startup log','Close app'],defaultId:0,cancelId:3});if(response===0)restartGraphics('basic');else if(response===1)window.loadURL(appURL()).catch(()=>{});else if(response===2){const error=await shell.openPath(startupLog.file);if(error)dialog.showErrorBox('Startup log',startupLog.file);}else app.quit();}finally{recoveryOpen=false;}}
 
-const {startLocalServer}=require('./server.cjs');
+const {installLocalTransport}=require('./local-transport.cjs');
 let window,local,checkTimer,lastCheck=0,checking=false,checkingManual=false,status={state:'idle'};const notified=new Set();
 const smoke=process.argv.includes('--smoke-test')||process.argv.includes('--smoke-test-updates');
 app.setAppUserModelId('com.erickomari.cognitivegeo');
 if(!app.requestSingleInstanceLock()){app.quit();}else{
  app.on('second-instance',()=>{if(window){if(window.isMinimized())window.restore();window.show();window.focus();}});
  app.whenReady().then(async()=>{
-  local=await startLocalServer(path.join(app.getAppPath(),'dist'),{port:smoke?0:35471});
+  local=await installLocalTransport(session.defaultSession,path.join(app.getAppPath(),'dist'));startupLog.write('local-transport',{mode:'in-process',tcpListener:false});
   window=new BrowserWindow({width:1450,height:1000,minWidth:760,minHeight:620,title:'CognitiveGeo · Created by Erick Omari',backgroundColor:'#080d13',show:false,icon:path.join(__dirname,'resources','icon.png'),webPreferences:{preload:path.join(__dirname,'preload.cjs'),contextIsolation:true,nodeIntegration:false,sandbox:true,webSecurity:true}});
   window.webContents.on('did-fail-load',(_event,code,_description,_url,isMainFrame)=>{if(isMainFrame&&code!==-3)showRecovery('The local app page could not load (code '+code+').');});
   window.webContents.on('render-process-gone',(_event,details)=>showRecovery('The display process stopped: '+details.reason+'.'));
